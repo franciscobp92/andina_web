@@ -1,0 +1,1456 @@
+[PHP ERR][WARN] MSG:file_exists(): open_basedir restriction in effect. File(/www/wwwroot/wp-config.php) is not within the allowed path(s): (/www/wwwroot/andinalicores.com.ec/:/tmp/) [CODE:2|FILE:/www/wwwroot/andinalicores.com.ec/dup-installer/classes/class.installer.state.php|LINE:57]
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 06:01:42
+* VERSION: 1.4.6
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.28                                |7.3.31
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2022-05-23 15:23:20
+WP VERSION__________: 5.9.3
+DUP VERSION_________: 1.4.6
+DB__________________: 5.6.41
+DB TABLES___________: 123
+DB ROWS_____________: 377,355
+DB FILE SIZE________: 119.92MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.3.31 | SAPI: fpm-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "/www/wwwroot/andinalicores.com.ec"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "https://andinalicores.com.ec/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/www/wwwroot/andinalicores.com.ec/20200826_andinalicores_[HASH]_20220523152320_archive.zip"
+SIZE________________: 547.41MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' backed-up to .htaccess-220524180142-628d1d86bd9ba-duplicator.bak
+- PASS: Existing Apache '.htaccess' was removed
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' backed-up to .user.ini-220524180142-628d1d86bd9ba-duplicator.bak
+[PHP ERR][WARN] MSG:unlink(/www/wwwroot/andinalicores.com.ec/.user.ini): Operation not permitted [CODE:2|FILE:/www/wwwroot/andinalicores.com.ec/dup-installer/classes/config/class.conf.srv.php|LINE:249]
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/www/wwwroot/andinalicores.com.ec/dup-installer/classes/config/class.conf.srv.php|LINE:251]
+[PHP ERR][WARN] MSG:unlink(/www/wwwroot/andinalicores.com.ec/.user.ini): Operation not permitted [CODE:2|FILE:/www/wwwroot/andinalicores.com.ec/dup-installer/classes/config/class.conf.srv.php|LINE:252]
+- WARN: Existing WordFence '/www/wwwroot/andinalicores.com.ec/.user.ini' not removed, a possible permission error?
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+FILE EXTRACION ERROR: .user.ini
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/www/wwwroot/andinalicores.com.ec/20200826_andinalicores_[HASH]_20220523152320_archive.zip"
+SIZE________________: 547.41MBFile timestamp set to Current: 2022-05-24 18:02:04
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTRACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+[PHP ERR][WARN] MSG:touch(): Utime failed: Operation not permitted [CODE:2|FILE:/www/wwwroot/andinalicores.com.ec/dup-installer/ctrls/classes/class.ctrl.extraction.php|LINE:571]
+[PHP ERR][WARN] MSG:unlink(/www/wwwroot/andinalicores.com.ec/.user.ini): Operation not permitted [CODE:2|FILE:/www/wwwroot/andinalicores.com.ec/dup-installer/classes/config/class.conf.srv.php|LINE:249]
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/www/wwwroot/andinalicores.com.ec/dup-installer/classes/config/class.conf.srv.php|LINE:251]
+[PHP ERR][WARN] MSG:unlink(/www/wwwroot/andinalicores.com.ec/.user.ini): Operation not permitted [CODE:2|FILE:/www/wwwroot/andinalicores.com.ec/dup-installer/classes/config/class.conf.srv.php|LINE:252]
+- WARN: Existing WordFence '/www/wwwroot/andinalicores.com.ec/.user.ini' not removed, a possible permission error?
+
+STEP-1 COMPLETE @ 06:02:20 - RUNTIME: 37.9602 sec.
+====================================
+NEXT STEP NOTICES
+====================================
+-----------------------
+[WARNING] Can't extract files
+	LONG MSG: FILE: <b>.user.ini</b><br>Message: ZipArchive::extractTo(/www/wwwroot/andinalicores.com.ec/.user.ini): failed to open stream: Operation not permitted
+<br><br>
+
+====================================
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 06:02:48
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.6.50 -- Build Server: 5.6.41
+FILE SIZE:	dup-database__[HASH].sql (40.67MB)
+TIMEOUT:	5000
+MAXPACK:	1073741824
+SQLMODE:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/www/wwwroot/andinalicores.com.ec/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	1094
+
+al_actionscheduler_actions: (3340)
+al_actionscheduler_claims: (0)
+al_actionscheduler_groups: (12)
+al_actionscheduler_logs: (10000)
+al_bodega: (8)
+al_bwf_action_claim: (0)
+al_bwf_actions: (0)
+al_bwf_contact: (0)
+al_bwf_contact_meta: (0)
+al_bwf_wc_customers: (0)
+al_bwfan_abandonedcarts: (0)
+al_bwfan_automationmeta: (22)
+al_bwfan_automations: (2)
+al_bwfan_contact_automations: (0)
+al_bwfan_logmeta: (0)
+al_bwfan_logs: (0)
+al_bwfan_message_unsubscribe: (0)
+al_bwfan_syncrecords: (0)
+al_bwfan_task_claim: (0)
+al_bwfan_taskmeta: (0)
+al_bwfan_tasks: (0)
+al_cartbounty: (24)
+al_cartbounty_emails: (51)
+al_channelsale_users: (0)
+al_commentmeta: (180)
+al_comments: (1244)
+al_duplicator_packages: (0)
+al_ee_product_sync_call: (12)
+al_ee_product_sync_data: (334)
+al_ee_product_sync_profile: (1)
+al_ee_products_sync_list: (1)
+al_ee_prouct_pre_sync_data: (0)
+al_links: (0)
+al_mailchimp_carts: (0)
+al_mailchimp_jobs: (0)
+al_options: (1396)
+al_postmeta: (167263)
+al_posts: (2553)
+al_product_price: (4007)
+al_product_stock: (8461)
+al_rank_math_404_logs: (37)
+al_rank_math_analytics_gsc: (108915)
+al_rank_math_analytics_inspections: (405)
+al_rank_math_analytics_objects: (406)
+al_rank_math_internal_links: (5776)
+al_rank_math_internal_meta: (903)
+al_rank_math_redirections: (0)
+al_rank_math_redirections_cache: (0)
+al_revslider_css: (109)
+al_revslider_css_bkp: (47)
+al_revslider_layer_animations: (0)
+al_revslider_layer_animations_bkp: (0)
+al_revslider_navigations: (3)
+al_revslider_navigations_bkp: (0)
+al_revslider_sliders: (45)
+al_revslider_sliders_bkp: (0)
+al_revslider_slides: (111)
+al_revslider_slides_bkp: (0)
+al_revslider_static_slides: (37)
+al_revslider_static_slides_bkp: (0)
+al_robogallery_cache: (0)
+al_sgpb_subscribers: (0)
+al_sgpb_subscription_error_log: (0)
+al_shortpixel_folders: (0)
+al_shortpixel_meta: (0)
+al_smush_dir_images: (216)
+al_snippets: (7)
+al_term_relationships: (10520)
+al_term_taxonomy: (144)
+al_termmeta: (538)
+al_terms: (144)
+al_tm_taskmeta: (92)
+al_tm_tasks: (92)
+al_trustindex_google_reviews: (9)
+al_usermeta: (17540)
+al_users: (411)
+al_wc_admin_note_actions: (92)
+al_wc_admin_notes: (83)
+al_wc_category_lookup: (38)
+al_wc_customer_lookup: (222)
+al_wc_download_log: (0)
+al_wc_order_coupon_lookup: (0)
+al_wc_order_product_lookup: (1636)
+al_wc_order_stats: (502)
+al_wc_order_tax_lookup: (462)
+al_wc_product_attributes_lookup: (0)
+al_wc_product_download_directories: (0)
+al_wc_product_meta_lookup: (1030)
+al_wc_rate_limits: (0)
+al_wc_reserved_stock: (0)
+al_wc_tax_rate_classes: (2)
+al_wc_webhooks: (0)
+al_wfco_connectormeta: (0)
+al_wfco_connectors: (0)
+al_wfco_report_views: (0)
+al_woocommerce_api_keys: (2)
+al_woocommerce_attribute_taxonomies: (1)
+al_woocommerce_downloadable_product_permissions: (0)
+al_woocommerce_log: (0)
+al_woocommerce_order_itemmeta: (18546)
+al_woocommerce_order_items: (2129)
+al_woocommerce_payment_tokenmeta: (0)
+al_woocommerce_payment_tokens: (0)
+al_woocommerce_sessions: (2)
+al_woocommerce_shipping_zone_locations: (0)
+al_woocommerce_shipping_zone_methods: (0)
+al_woocommerce_shipping_zones: (0)
+al_woocommerce_tax_rate_locations: (0)
+al_woocommerce_tax_rates: (1)
+al_woodmart_wishlist_products: (62)
+al_woodmart_wishlists: (187)
+al_wpbackitup_job_control: (1)
+al_wpbackitup_job_items: (0)
+al_wpbackitup_job_tasks: (7)
+al_wpforms_tasks_meta: (302)
+al_wpgmza: (1)
+al_wpgmza_circles: (0)
+al_wpgmza_maps: (1)
+al_wpgmza_nominatim_geocode_cache: (1)
+al_wpgmza_polygon: (0)
+al_wpgmza_polylines: (0)
+al_wpgmza_rectangles: (0)
+al_wpmailsmtp_tasks_meta: (8)
+Removed '511' cache/transient rows
+
+INSERT DATA RUNTIME: 13.8437 sec.
+STEP-2 COMPLETE @ 06:03:02 - RUNTIME: 13.8913 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 06:03:07
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Andina Licores"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home1/colemun/public_html"
+path_new______________: "/www/wwwroot/andinalicores.com.ec"
+siteurl_______________: "https://andinalicores.com.ec"
+url_old_______________: "https://andinalicores.com.ec"
+url_new_______________: "https://andinalicores.com.ec"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "al_actionscheduler_actions"______________________[ROWS:  3340][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_actionscheduler_groups"_______________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_actionscheduler_logs"_________________________[ROWS: 10000][PG:   3][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_bodega"_______________________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_bwf_action_claim"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_bwf_actions"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_bwf_contact"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_bwf_contact_meta"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_bwf_wc_customers"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_bwfan_abandonedcarts"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_bwfan_automationmeta"_________________________[ROWS:    22][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_bwfan_automations"____________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_bwfan_contact_automations"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_bwfan_logmeta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_bwfan_logs"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_bwfan_message_unsubscribe"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_bwfan_syncrecords"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_bwfan_task_claim"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_bwfan_taskmeta"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_bwfan_tasks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_cartbounty"___________________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_cartbounty_emails"____________________________[ROWS:    51][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_channelsale_users"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_commentmeta"__________________________________[ROWS:   180][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_comments"_____________________________________[ROWS:  1244][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_ee_product_sync_call"_________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_ee_product_sync_data"_________________________[ROWS:   334][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_ee_product_sync_profile"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_ee_products_sync_list"________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_ee_prouct_pre_sync_data"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_mailchimp_carts"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_mailchimp_jobs"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_options"______________________________________[ROWS:  1396][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+	ENGINE: serialize data serial check error
+	DATA: a:231:{s:11:"jquery-core";a:8:{s:6:"handle";s:11:"jquery-core";s:3:"src";s:36:"/wp-includes/js/jquery/jquery.min.js";s:4:"deps";a:0:{}s:3:"ver";s:5:"3.6.0";s:4:"args";N;s:5:"extra";a:0:{}s:10:"t [...]
+
+EVALUATE TABLE: "al_postmeta"_____________________________________[ROWS:167263][PG:  48][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_posts"________________________________________[ROWS:  2553][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_product_price"________________________________[ROWS:  4007][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_product_stock"________________________________[ROWS:  8461][PG:   3][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_rank_math_404_logs"___________________________[ROWS:    37][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_rank_math_analytics_gsc"______________________[ROWS:108915][PG:  32][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_rank_math_analytics_inspections"______________[ROWS:   405][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_rank_math_analytics_objects"__________________[ROWS:   406][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_rank_math_internal_links"_____________________[ROWS:  5776][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_rank_math_internal_meta"______________________[ROWS:   903][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_rank_math_redirections"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_rank_math_redirections_cache"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_revslider_css"________________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_revslider_css_bkp"____________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_revslider_layer_animations"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_revslider_layer_animations_bkp"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_revslider_navigations"________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_revslider_navigations_bkp"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_revslider_sliders"____________________________[ROWS:    45][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_revslider_sliders_bkp"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_revslider_slides"_____________________________[ROWS:   111][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_revslider_slides_bkp"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_revslider_static_slides"______________________[ROWS:    37][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_revslider_static_slides_bkp"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_robogallery_cache"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_sgpb_subscribers"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_sgpb_subscription_error_log"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_shortpixel_folders"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_shortpixel_meta"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_smush_dir_images"_____________________________[ROWS:   216][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_snippets"_____________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_term_relationships"___________________________[ROWS: 10520][PG:   4][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_term_taxonomy"________________________________[ROWS:   144][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_termmeta"_____________________________________[ROWS:   538][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_terms"________________________________________[ROWS:   144][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_tm_taskmeta"__________________________________[ROWS:    92][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_tm_tasks"_____________________________________[ROWS:    92][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_trustindex_google_reviews"____________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_usermeta"_____________________________________[ROWS: 17540][PG:   6][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_users"________________________________________[ROWS:   411][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_wc_admin_note_actions"________________________[ROWS:    92][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_wc_admin_notes"_______________________________[ROWS:    83][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_wc_category_lookup"___________________________[ROWS:    38][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_wc_customer_lookup"___________________________[ROWS:   222][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_wc_order_product_lookup"______________________[ROWS:  1636][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_wc_order_stats"_______________________________[ROWS:   502][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_wc_order_tax_lookup"__________________________[ROWS:   462][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_wc_product_attributes_lookup"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_wc_product_download_directories"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_wc_product_meta_lookup"_______________________[ROWS:  1030][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_wc_rate_limits"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_wfco_connectormeta"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_wfco_connectors"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_wfco_report_views"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_woocommerce_api_keys"_________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_woocommerce_attribute_taxonomies"_____________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_woocommerce_order_itemmeta"___________________[ROWS: 18546][PG:   6][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_woocommerce_order_items"______________________[ROWS:  2129][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_woocommerce_sessions"_________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_woocommerce_tax_rates"________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_woodmart_wishlist_products"___________________[ROWS:    62][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_woodmart_wishlists"___________________________[ROWS:   187][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_wpbackitup_job_control"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_wpbackitup_job_items"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_wpbackitup_job_tasks"_________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_wpforms_tasks_meta"___________________________[ROWS:   302][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_wpgmza"_______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_wpgmza_circles"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_wpgmza_maps"__________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_wpgmza_nominatim_geocode_cache"_______________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+
+EVALUATE TABLE: "al_wpgmza_polygon"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_wpgmza_polylines"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_wpgmza_rectangles"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "al_wpmailsmtp_tasks_meta"________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home1/colemun/public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  2:"\/home1\/colemun\/public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  3:"%2Fhome1%2Fcolemun%2Fpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  4:"\home1\colemun\public_html" ======================> "/www/wwwroot/andinalicores.com.ec"
+	SEARCH  5:"\\home1\\colemun\\public_html" ===================> "\/www\/wwwroot\/andinalicores.com.ec"
+	SEARCH  6:"%5Chome1%5Ccolemun%5Cpublic_html" ================> "%2Fwww%2Fwwwroot%2Fandinalicores.com.ec"
+	SEARCH  7:"//www.andinalicores.com.ec" ======================> "//andinalicores.com.ec"
+	SEARCH  8:"\/\/www.andinalicores.com.ec" ====================> "\/\/andinalicores.com.ec"
+	SEARCH  9:"%2F%2Fwww.andinalicores.com.ec" ==================> "%2F%2Fandinalicores.com.ec"
+	SEARCH 10:"http://andinalicores.com.ec" =====================> "https://andinalicores.com.ec"
+	SEARCH 11:"http:\/\/andinalicores.com.ec" ===================> "https:\/\/andinalicores.com.ec"
+	SEARCH 12:"http%3A%2F%2Fandinalicores.com.ec" ===============> "https%3A%2F%2Fandinalicores.com.ec"
+--------------------------------------
+SCANNED:	Tables:123 	|	 Rows:370736 	|	 Cells:2079998 
+UPDATED:	Tables:7 	|	 Rows:895 	|	 Cells:896 
+ERRORS:		1 
+RUNTIME:	4.943300 sec
+--------------------------------------
+DATA-REPLACE ERRORS (Serialization):
+ENGINE: serialize data serial check error
+	DATA: a:231:{s:11:"jquery-core";a:8:{s:6:"handle";s:11:"jquery-core";s:3:"src";s:36:"/wp-includes/js/jquery/jquery.min.js";s:4:"deps";a:0:{}s:3:"ver";s:5:"3.6.0";s:4:"args";N;s:5:"extra";a:0:{}s:10:"t [...]
+	TABLE:al_options COLUMN: option_value WHERE: `option_id` = "272724"
+
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Auto Deactivated plugins list here: Array
+(
+    [0] => js_composer/js_composer.php
+)
+
+deactivate js_composer/js_composer.php
+Plugin(s) listed here are deactivated: js_composer/js_composer.php
+Plugin(s) reactivated after installation: js_composer/js_composer.php
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 06:03:12 - RUNTIME: 5.0825 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[WARNING] SERIALIZATION NOTICES  (1)
+	SECTIONS: search_replace
+	LONG MSG:             Notices should be ignored unless issues are found after you have tested an installed site.  The SQL below will show data that may have not been
+            updated during the serialization process.  Best practices for serialization notices is to just re-save the plugin/post/page in question.
+
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[WARNING] Files not extracted
+	SECTIONS: files
+	LONG MSG: FILE: <b>.user.ini</b><br>Message: ZipArchive::extractTo(/www/wwwroot/andinalicores.com.ec/.user.ini): failed to open stream: Operation not permitted
+<br><br>
+
+-----------------------
+[WARNING] DATA-REPLACE ERROR: Serialization
+	SECTIONS: search_replace
+	LONG MSG: ENGINE: serialize data serial check error
+	DATA: a:231:{s:11:"jquery-core";a:8:{s:6:"handle";s:11:"jquery-core";s:3:"src";s:36:"/wp-includes/js/jquery/jquery.min.js";s:4:"deps";a:0:{}s:3:"ver";s:5:"3.6.0";s:4:"args";N;s:5:"extra";a:0:{}s:10:"t [...]
+	TABLE:al_options COLUMN: option_value WHERE: `option_id` = "272724"
+
+-----------------------
+[WARNING] Deactivated Plugin:  WPBakery Page Builder
+	SECTIONS: general
+	LONG MSG: This plugin is deactivated automatically, because it requires a reacivation to work properly.  <b>Please reactivate from the WordPress admin panel after logging in.</b> This will re-enable your site's frontend.
+
+====================================

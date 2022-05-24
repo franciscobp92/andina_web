@@ -1,0 +1,655 @@
+# Translation of Plugins - Product Customer List for WooCommerce - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Product Customer List for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-18 11:36:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Product Customer List for WooCommerce - Stable (latest release)\n"
+
+#: views/table-customer-list.php:141
+msgid "*Various browsers have limits as to how many characters mailto: links can have. To be safe, we have broken down your customer list to safe lengths over multiple buttons."
+msgstr "*Varios navegadores tienen limitado el número de caracteres que pueden tener los enlaces mailto. Para estar seguro, hemos dividido la lista de clientes en varios botones"
+
+#: views/table-customer-list.php:131
+msgid "Total quantity sold"
+msgstr "Cantidad total vendida"
+
+#: admin/wpcl-api.php:47
+msgid "Invalid order IDs"
+msgstr "El ID del pedido no es válido"
+
+#: admin/wpcl-api.php:32 admin/wpcl-api.php:39
+msgid "You do not have the permissions to access this information"
+msgstr "No tienes permisos para acceder a esta información"
+
+#: admin/wpcl-scripts.php:90
+msgid "There was an AJAX error"
+msgstr "Hubo un error de AJAX"
+
+#: admin/wpcl-api.php:347 admin/wpcl-api.php:348 admin/wpcl-api.php:349
+msgid "[no customer ID in order]"
+msgstr "No hay ID del cliente en el pedido"
+
+#: admin/wpcl-api.php:387
+msgid "Variation Name"
+msgstr "Variación de nombre"
+
+#: admin/wpcl-scripts.php:89
+msgid "Processing Orders: "
+msgstr "Pedidos procesados"
+
+#: admin/wpcl-settings.php:338
+msgid "Enable SKU in PDF title"
+msgstr "Activa SKU en el título del PDF"
+
+#: admin/wpcl-settings.php:333
+msgid "Add SKU to PDF title"
+msgstr "Añade SKU al título del PDF"
+
+#: admin/wpcl-api.php:171
+msgid "Shipping Postal Code / Zip"
+msgstr "Código postal de envío"
+
+#: admin/wpcl-api.php:135
+msgid "Billing Postal Code / Zip"
+msgstr "Código postal del pago"
+
+#: views/shortcodes.php:238
+msgid "Display Name"
+msgstr "Nombre a mostrar"
+
+#: admin/wpcl-settings.php:170
+msgid "Enable customer display name column"
+msgstr "Activar la columna que mientras el nombre del cliente"
+
+#: admin/wpcl-api.php:191 admin/wpcl-settings.php:165
+msgid "Customer display name"
+msgstr "Mostrar nombre cliente"
+
+#: admin/wpcl-settings.php:138
+msgid "Enable variations column"
+msgstr "Activar columna de variaciones"
+
+#: admin/wpcl-settings.php:133
+msgid "Variations column"
+msgstr "Columna de variaciones"
+
+#: views/shortcodes.php:259
+msgid "Total qty"
+msgstr "Cantidad total"
+
+#: admin/wpcl-settings.php:162
+msgid "Enable customer username column"
+msgstr "Activar columna con el nombre de usuario del cliente"
+
+#: admin/wpcl-api.php:187 admin/wpcl-settings.php:157 views/shortcodes.php:235
+msgid "Customer username"
+msgstr "Nombre de usuario del cliente"
+
+#: admin/wpcl-api.php:207 views/shortcodes.php:250
+msgid "Coupons used"
+msgstr "Cupones usados"
+
+#: admin/wpcl-api.php:151 views/shortcodes.php:208
+msgid "Shipping Company"
+msgstr "Empresa de envío"
+
+#: admin/wpcl-api.php:107 views/shortcodes.php:175
+msgid "Billing Company"
+msgstr "Empresa de facturación"
+
+#: admin/wpcl-settings.php:282
+msgid "Enable shipping company column"
+msgstr "Activar columna con la empresa de envío"
+
+#: admin/wpcl-settings.php:277
+msgid "Shipping company column"
+msgstr "Columna con la empresa de envío"
+
+#: admin/wpcl-settings.php:194
+msgid "Enable billing company column"
+msgstr "Activar columna con la empresa de facturación"
+
+#: admin/wpcl-settings.php:189
+msgid "Billing company column"
+msgstr "Columna con la empresa de facturación"
+
+#: admin/wpcl-settings.php:130
+msgid "Enable coupons used column"
+msgstr "Activar columna de cupones usados"
+
+#: admin/wpcl-settings.php:125
+msgid "Coupons used column"
+msgstr "Columna con los cupones usados"
+
+#: admin/wpcl-settings.php:66
+msgid "Hide partially refunded orders"
+msgstr "Esconder pedidos con reembolso parcial"
+
+#: admin/wpcl-settings.php:61
+msgid "Partial refunds"
+msgstr "Reembolso parcial"
+
+#: views/table-customer-list.php:139
+msgid "Email selected customers"
+msgstr "Correos seleccionado de clientes"
+
+#: admin/wpcl-api.php:203 views/shortcodes.php:247
+msgid "Shipping method"
+msgstr "Método de envio"
+
+#: admin/wpcl-settings.php:122
+msgid "Enable shipping method column"
+msgstr "Activar columna de método de envío"
+
+#: admin/wpcl-settings.php:117
+msgid "Shipping method column"
+msgstr "Columna de método de envío"
+
+#: admin/wpcl-scripts.php:81
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr "Mostrar registros de  _START_ to _END_ of _TOTAL_"
+
+#: admin/wpcl-scripts.php:80
+msgid "All"
+msgstr "Todos"
+
+#: admin/wpcl-scripts.php:79
+msgid "Reset column order"
+msgstr "Reiniciar orden de columna"
+
+#: admin/wpcl-api.php:215 views/shortcodes.php:256
+msgid "Order total"
+msgstr "Pedidos totales"
+
+#: admin/wpcl-settings.php:101
+msgid "Order total column"
+msgstr "Columna de pedidos totales"
+
+#: admin/wpcl-settings.php:106
+msgid "Enable order total column"
+msgstr "Activar columna de pedidos totales"
+
+#: admin/wpcl-settings.php:154
+msgid "Enable customer ID column"
+msgstr "Activar columna de ID del cliente"
+
+#: admin/wpcl-api.php:183 admin/wpcl-settings.php:149
+#: views/legacy/table-customer-list-2-6.php:96 views/shortcodes.php:232
+msgid "Customer ID"
+msgstr "ID del cliente"
+
+#: admin/wpcl-settings.php:306
+msgid "Enable shipping city column"
+msgstr "Activar columna de ciudad de envio"
+
+#: admin/wpcl-settings.php:301
+msgid "Shipping city column"
+msgstr "Columna de ciudad de envio"
+
+#: admin/wpcl-settings.php:234
+msgid "Enable billing city column"
+msgstr "Activar columna ciudad de facturación"
+
+#: admin/wpcl-settings.php:229
+msgid "Billing city column"
+msgstr "Columna ciudad de pago"
+
+#: admin/wpcl-api.php:199 views/legacy/table-customer-list-2-6.php:98
+#: views/shortcodes.php:244
+msgid "Payment method"
+msgstr "Método de pago"
+
+#: admin/wpcl-settings.php:114
+msgid "Enable payment method column"
+msgstr "Activar columna de método de pago"
+
+#: admin/wpcl-settings.php:109
+msgid "Payment method column"
+msgstr "Columna método de pago"
+
+#: admin/wpcl-settings.php:363
+msgid "A5"
+msgstr "A5"
+
+#: admin/wpcl-settings.php:362
+msgid "A4"
+msgstr "A4"
+
+#: admin/wpcl-settings.php:361
+msgid "A3"
+msgstr "A3"
+
+#: admin/wpcl-settings.php:360
+msgid "US Legal"
+msgstr "Condición legal de Estados Unidos"
+
+#: admin/wpcl-settings.php:359
+msgid "US Letter"
+msgstr "Carta de Estados Unidos"
+
+#: admin/wpcl-settings.php:353
+msgid "PDF page size"
+msgstr "Tamaño página PDF"
+
+#: admin/wpcl-settings.php:348
+msgid "Landscape"
+msgstr "Horizontal"
+
+#: admin/wpcl-settings.php:347
+msgid "Portrait"
+msgstr "Vertical"
+
+#: admin/wpcl-settings.php:341
+msgid "PDF orientation"
+msgstr "Orientación del PDF"
+
+#: admin/wpcl-scripts.php:71
+msgid "Copied 1 row"
+msgstr "1 fila copiada"
+
+#: admin/wpcl-scripts.php:70
+msgid "Copied %d rows"
+msgstr "Copiadas %d filas"
+
+#: admin/wpcl-scripts.php:69
+msgid "Copy to clipboard"
+msgstr "Copiar al portapapeles"
+
+#: admin/wpcl-scripts.php:62
+msgid "Copy"
+msgstr "Copiar"
+
+#: views/legacy/table-customer-list-2-6.php:311
+msgid "Variation no longer exists"
+msgstr "La variación ya no existe"
+
+#: admin/wpcl-api.php:211 views/legacy/table-customer-list-2-6.php:99
+#: views/shortcodes.php:253
+msgid "Variation"
+msgstr "Variación"
+
+#: admin/wpcl-api.php:87 views/legacy/table-customer-list-2-6.php:76
+#: views/shortcodes.php:166
+msgid "Date"
+msgstr "Fecha"
+
+#: admin/wpcl-settings.php:82
+msgid "Enable order date column"
+msgstr "Activar columna de fecha del pedido"
+
+#: admin/wpcl-settings.php:77
+msgid "Order date column"
+msgstr "Columna fecha de pedido"
+
+#: admin/wpcl-api.php:195 views/legacy/table-customer-list-2-6.php:97
+#: views/shortcodes.php:241
+msgid "Order Status"
+msgstr "Estado del pedido"
+
+#: admin/wpcl-api.php:179 views/legacy/table-customer-list-2-6.php:95
+#: views/shortcodes.php:229
+msgid "Customer Message"
+msgstr "Mensaje a los Clientes"
+
+#: admin/wpcl-api.php:175 views/legacy/table-customer-list-2-6.php:94
+#: views/shortcodes.php:226
+msgid "Shipping Country"
+msgstr "País (envío)"
+
+#: views/legacy/table-customer-list-2-6.php:93 views/shortcodes.php:223
+msgid "Shipping Postal Code / Zip"
+msgstr "Código postal"
+
+#: admin/wpcl-api.php:167 views/legacy/table-customer-list-2-6.php:92
+#: views/shortcodes.php:220
+msgid "Shipping State"
+msgstr "Provincia (envío)"
+
+#: admin/wpcl-api.php:163 views/legacy/table-customer-list-2-6.php:91
+#: views/shortcodes.php:217
+msgid "Shipping City"
+msgstr "Ciudad (envío)"
+
+#: admin/wpcl-api.php:159 views/legacy/table-customer-list-2-6.php:90
+#: views/shortcodes.php:214
+msgid "Shipping Address 2"
+msgstr "Dirección de envío 2"
+
+#: admin/wpcl-api.php:155 views/legacy/table-customer-list-2-6.php:89
+#: views/shortcodes.php:211
+msgid "Shipping Address 1"
+msgstr "Dirección de envio 1"
+
+#: admin/wpcl-api.php:147 views/legacy/table-customer-list-2-6.php:88
+#: views/shortcodes.php:205
+msgid "Shipping Last name"
+msgstr "Apellidos de envío"
+
+#: admin/wpcl-api.php:143 views/legacy/table-customer-list-2-6.php:87
+#: views/shortcodes.php:202
+msgid "Shipping First name"
+msgstr "Nombre de envío"
+
+#: admin/wpcl-api.php:139 views/legacy/table-customer-list-2-6.php:86
+#: views/shortcodes.php:199
+msgid "Billing Country"
+msgstr "País de facturación"
+
+#: views/legacy/table-customer-list-2-6.php:85 views/shortcodes.php:196
+msgid "Billing Postal Code / Zip"
+msgstr "Codigo postal de facturación"
+
+#: admin/wpcl-api.php:131 views/legacy/table-customer-list-2-6.php:84
+#: views/shortcodes.php:193
+msgid "Billing State"
+msgstr "Estado de facturación"
+
+#: admin/wpcl-api.php:127 views/legacy/table-customer-list-2-6.php:83
+#: views/shortcodes.php:190
+msgid "Billing City"
+msgstr "Ciudad de facturación"
+
+#: admin/wpcl-api.php:123 views/legacy/table-customer-list-2-6.php:82
+#: views/shortcodes.php:187
+msgid "Billing Address 2"
+msgstr "Dirección de facturación 2"
+
+#: admin/wpcl-api.php:119 views/legacy/table-customer-list-2-6.php:81
+#: views/shortcodes.php:184
+msgid "Billing Address 1"
+msgstr "Dirección de facturación 1"
+
+#: admin/wpcl-api.php:115 views/legacy/table-customer-list-2-6.php:80
+#: views/shortcodes.php:181
+msgid "Billing Phone"
+msgstr "Teléfono (facturación)"
+
+#: admin/wpcl-api.php:111 views/legacy/table-customer-list-2-6.php:79
+#: views/shortcodes.php:178
+msgid "Billing E-mail"
+msgstr "Email facturación"
+
+#: admin/wpcl-api.php:103 views/legacy/table-customer-list-2-6.php:78
+#: views/shortcodes.php:172
+msgid "Billing Last name"
+msgstr "Apellidos facturación"
+
+#: admin/wpcl-api.php:95 views/legacy/table-customer-list-2-6.php:77
+#: views/shortcodes.php:169
+msgid "Billing First name"
+msgstr "Nombre de facturación"
+
+#: admin/wpcl-settings.php:330
+msgid "Enable shipping country column"
+msgstr "Activar columna de país de envío"
+
+#: admin/wpcl-settings.php:325
+msgid "Shipping country column"
+msgstr "Columna de país de envío "
+
+#: admin/wpcl-settings.php:322
+msgid "Enable shipping postal code / Zip column"
+msgstr "Activar columna de código postal de envío"
+
+#: admin/wpcl-settings.php:317
+msgid "Shipping Postal Code / Zip column"
+msgstr "Columna de código postal de envío"
+
+#: admin/wpcl-settings.php:314
+msgid "Enable shipping state column"
+msgstr "Activar columna de provincia de envío"
+
+#: admin/wpcl-settings.php:309
+msgid "Shipping state column"
+msgstr "Columna de provincia de envío"
+
+#: admin/wpcl-settings.php:298
+msgid "Enable shipping address 2 column"
+msgstr "Activar columna de dirección de envío 2"
+
+#: admin/wpcl-settings.php:293
+msgid "Shipping address 2 column"
+msgstr "Columna dirección de envío 2"
+
+#: admin/wpcl-settings.php:290
+msgid "Enable shipping address 1 column"
+msgstr "Activar columna dirección de envío 1"
+
+#: admin/wpcl-settings.php:285
+msgid "Shipping address 1 column"
+msgstr "Columna dirección de envio 1"
+
+#: admin/wpcl-settings.php:274
+msgid "Enable shipping last name column"
+msgstr "Activar columna de apellido del envío"
+
+#: admin/wpcl-settings.php:269
+msgid "Shipping last name column"
+msgstr "Columna apellido del envío"
+
+#: admin/wpcl-settings.php:266
+msgid "Enable shipping first name column"
+msgstr "Activar columna de nombre de envío"
+
+#: admin/wpcl-settings.php:261
+msgid "Shipping first name column"
+msgstr "Columna de nombre de envío"
+
+#: admin/wpcl-settings.php:258
+msgid "Enable billing country column"
+msgstr "Activar columna del país de facturación"
+
+#: admin/wpcl-settings.php:253
+msgid "Billing country column"
+msgstr "Columna país de facturación"
+
+#: admin/wpcl-settings.php:250
+msgid "Enable billing postal code / Zip column"
+msgstr "Activar columna código postal de facturación"
+
+#: admin/wpcl-settings.php:245
+msgid "Billing Postal Code / Zip column"
+msgstr "Columna código postal de facturación"
+
+#: admin/wpcl-settings.php:242
+msgid "Enable billing state column"
+msgstr "Activar columna provincia de facturación"
+
+#: admin/wpcl-settings.php:237
+msgid "Billing state column"
+msgstr "Columna de provincia de facturación"
+
+#: admin/wpcl-settings.php:226
+msgid "Enable billing address 2 column"
+msgstr "Activar columna de dirección de facturación 1"
+
+#: admin/wpcl-settings.php:221
+msgid "Billing address 2 column"
+msgstr "Columna dirección de facturación 2"
+
+#: admin/wpcl-settings.php:218
+msgid "Enable billing address 1 column"
+msgstr "Activar columna dirección de facturación 1"
+
+#: admin/wpcl-settings.php:213
+msgid "Billing address 1 column"
+msgstr "Columna dirección de facturación 1"
+
+#: admin/wpcl-settings.php:210
+msgid "Enable billing phone column"
+msgstr "Activar columna de teléfono de facturación"
+
+#: admin/wpcl-settings.php:205
+msgid "Billing phone column"
+msgstr "Columna teléfono de facturación"
+
+#: admin/wpcl-settings.php:202
+msgid "Enable billing e-mail column"
+msgstr "Activar columna de email de facturación"
+
+#: admin/wpcl-settings.php:197
+msgid "Billing e-mail column"
+msgstr "Columna email de facturación"
+
+#: admin/wpcl-settings.php:186
+msgid "Enable billing last name column"
+msgstr "Activar columna de apellido de facturación"
+
+#: admin/wpcl-settings.php:181
+msgid "Billing last name column"
+msgstr "Columna apellido de facturación"
+
+#: admin/wpcl-settings.php:178
+msgid "Enable billing first name column"
+msgstr "Activar columna nombre de facturación"
+
+#: admin/wpcl-settings.php:173
+msgid "Billing first name column"
+msgstr "Columna nombre de facturación"
+
+#: admin/wpcl-settings.php:146
+msgid "Enable customer message column"
+msgstr "Activar columna mensaje de cliente"
+
+#: admin/wpcl-settings.php:141
+msgid "Customer message column"
+msgstr "Columna mensaje de cliente"
+
+#: admin/wpcl-settings.php:98
+msgid "Enable order quantity column"
+msgstr "Activar columna cantidad de pedido"
+
+#: admin/wpcl-settings.php:93
+msgid "Order quantity column"
+msgstr "Columna cantidad de pedido"
+
+#: admin/wpcl-settings.php:90
+msgid "Enable order status column"
+msgstr "Activar columna estado del pedido"
+
+#: admin/wpcl-settings.php:85
+msgid "Order status column"
+msgstr "Columna estado del pedido"
+
+#: admin/wpcl-settings.php:74
+msgid "Enable order number column"
+msgstr "Activar columna número de pedido"
+
+#: admin/wpcl-settings.php:69
+msgid "Order number column"
+msgstr "Columna número de pedido"
+
+#: admin/wpcl-settings.php:52
+msgid "Select one or multiple order statuses for which you will display the customers."
+msgstr "Selecciona uno o varios estados de pedido, los cuales serán mostrados a los clientes"
+
+#: admin/wpcl-settings.php:51
+msgid "Order status"
+msgstr "Estado del pedido"
+
+#: admin/wpcl-settings.php:47
+msgid "The following options are used to configure Product Customer List for WooCommerce"
+msgstr "Las siguientes opciones son usadas para configurar Product Customer List for WooCommerce"
+
+#: admin/wpcl-settings.php:9
+msgid "Product Customer List"
+msgstr "Listado de clientes del producto"
+
+#. Author URI of the plugin
+msgid "http://www.kokomoweb.com/"
+msgstr "http://www.kokomoweb.com/"
+
+#. Author of the plugin
+msgid "Kokomo"
+msgstr "Kokomo"
+
+#. Description of the plugin
+msgid "Displays a list of customers that bought a product on the edit page."
+msgstr "Muestra una lista de los clientes que han comprado un producto en la página de edición."
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/wc-product-customer-list/"
+msgstr "https://wordpress.org/plugins/wc-product-customer-list/"
+
+#. Plugin Name of the plugin
+#: admin/wpcl-settings.php:45
+msgid "Product Customer List for WooCommerce"
+msgstr "Product Customer List for WooCommerce"
+
+#: functions.php:27
+msgid "Woocommerce Product Customer List is enabled but not effective. It requires WooCommerce 2.2+ in order to work."
+msgstr "Woocommerce Product Customer List está habilitado pero no tiene efecto. Para funcionar correctamente necesita WooCommerce 2.2+."
+
+#: admin/wpcl-scripts.php:63
+msgid "Print"
+msgstr "Impresión"
+
+#: admin/wpcl-scripts.php:91 views/legacy/table-customer-list-2-6.php:345
+#: views/table-customer-list.php:135
+msgid "Email all customers"
+msgstr "Enviar correo electrónico a todos"
+
+#: views/legacy/table-customer-list-2-6.php:342 views/shortcodes.php:865
+msgid "Total"
+msgstr "Total"
+
+#: admin/wpcl-api.php:219 views/legacy/table-customer-list-2-6.php:100
+#: views/shortcodes.php:262
+msgid "Qty"
+msgstr "Cant."
+
+#: admin/wpcl-api.php:79 views/legacy/table-customer-list-2-6.php:75
+#: views/shortcodes.php:163
+msgid "Order"
+msgstr "Comprar"
+
+#: admin/wpcl-scripts.php:75
+msgid "Last"
+msgstr "&Uacute;ltimo"
+
+#: admin/wpcl-scripts.php:74
+msgid "Next"
+msgstr "Siguiente"
+
+#: admin/wpcl-scripts.php:73
+msgid "Previous"
+msgstr "Anterior"
+
+#: admin/wpcl-scripts.php:72
+msgid "First"
+msgstr "Primero"
+
+#: admin/wpcl-scripts.php:68
+msgid "Show _MENU_ orders"
+msgstr "Mostrar _MENU_ pedidos"
+
+#: admin/wpcl-scripts.php:67
+msgid "Showing _START_ to _END_ out of _TOTAL_ orders"
+msgstr "Mostrando _START_ hasta _END_ de _TOTAL_ pedidos"
+
+#: admin/wpcl-scripts.php:66
+msgid "No orders match your search"
+msgstr "No hay pedidos que coincidan con tu búsqueda"
+
+#: admin/wpcl-scripts.php:65 views/legacy/table-customer-list-2-6.php:348
+#: views/shortcodes.php:888 views/table-customer-list.php:145
+msgid "This product currently has no customers"
+msgstr "Este producto no tiene actualmente clientes"
+
+#: admin/wpcl-scripts.php:64
+msgid "Search"
+msgstr "Búsquedas"
+
+#: views/legacy/table-customer-list-2-6.php:23 views/table-customer-list.php:95
+msgid "Customers who bought this product"
+msgstr "Clientes que han comprado este producto"
+
+#: admin/wpcl-row-actions.php:11
+msgid "Customers"
+msgstr "Clientes"

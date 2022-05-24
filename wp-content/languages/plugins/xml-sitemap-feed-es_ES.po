@@ -1,0 +1,567 @@
+# Translation of Plugins - XML Sitemap &amp; Google News - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - XML Sitemap &amp; Google News - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-02 19:24:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - XML Sitemap &amp; Google News - Stable (latest release)\n"
+
+#. Translators: Page title
+#. https://www.xml-sitemaps.com/validate-xml-sitemap.html
+#: views/admin/sidebar-links.php:16 views/admin/sidebar-news-links.php:10
+msgid "Validate an XML Sitemap"
+msgstr "Validar un mapa del sitio XML"
+
+#. Translators: Site title https://webmaster.yandex.com/sites
+#: views/admin/sidebar-links.php:13
+msgid "Yandex.Webmaster"
+msgstr "Yandex.Webmaster"
+
+#. Translators: Site title https://ziyuan.baidu.com/site/index
+#: views/admin/sidebar-links.php:10
+msgid "Baidu Webmaster Tools"
+msgstr "Baidu Webmaster Tools"
+
+#. Translators: Site title https://www.bing.com/webmasters
+#: views/admin/sidebar-links.php:7
+msgid "Bing Webmaster Tools"
+msgstr "Bing Webmaster Tools"
+
+#. Translators: Site title https://search.google.com/search-console
+#: views/admin/sidebar-links.php:4 views/admin/sidebar-news-links.php:7
+msgid "Google Search Console"
+msgstr "Google Search Console"
+
+#: views/admin/sidebar-contribute.php:1
+msgid "Contribute"
+msgstr "Colaborar"
+
+#. Translators: Advanced options, Advanced plugin name
+#: views/admin/section-advanced-intro.php:2
+msgid "Advanced options"
+msgstr "Opciones avanzadas"
+
+#: views/admin/page-sitemap.php:48
+msgid "Ping search engines"
+msgstr "Hacer ping a los motores de búsqueda"
+
+#: views/admin/page-sitemap-news.php:66 views/admin/page-sitemap.php:63
+msgid "This will revert your sitemap settings to the plugin defaults."
+msgstr "Esto revertirá tus ajustes del mapa del sitio a los valores por defecto del plugin."
+
+#: views/admin/page-sitemap-news.php:66 views/admin/page-sitemap.php:63
+msgid "Reset settings"
+msgstr "Restablecer ajustes"
+
+#: views/admin/page-sitemap-news.php:62 views/admin/page-sitemap.php:54
+msgid "Check for conflicts"
+msgstr "Comprobar si hay conflictos"
+
+#: views/admin/page-sitemap-news.php:59 views/admin/page-sitemap.php:51
+msgid "Flush rewrite rules"
+msgstr "Vaciar las reglas de rewrite"
+
+#: views/admin/page-sitemap-news.php:56
+msgid "Ping Google News"
+msgstr "Hacer ping a Google News"
+
+#. translators: Sitemap name with URL
+#: views/admin/page-sitemap-news.php:47 views/admin/page-sitemap.php:39
+msgid "Open your %s"
+msgstr "Abre tu %s"
+
+#: views/admin/notice-static-files.php:24
+msgid "Attempt to delete selected conflicting files."
+msgstr "Intenta borrar los archivos conflictivos seleccionados."
+
+#: views/admin/notice-static-files.php:24
+msgid "Delete selected files"
+msgstr "Borrar los archivos seleccionados"
+
+#. translators: %1$s number of files, %2$s is Reading Settings URL
+#: views/admin/notice-static-files.php:8
+msgid "The following static file has been found. Either delete it or disable the conflicting <a href=\"%2$s\">sitemap</a>."
+msgid_plural "The following %1$s static files have been found. Either delete them or disable the conflicting <a href=\"%2$s\">sitemaps</a>."
+msgstr[0] "Ha sido encontrado el siguiente archivo estático. Bórralo o desactiva el <a href=\"%2$s\">mapa del sitio</a> conflictivo."
+msgstr[1] "Han sido encontrados los siguientes %1$s archivos estáticos. Bórralos o desactiva los <a href=\"%2$s\">mapas del sitio</a> conflictivos."
+
+#: views/admin/help-tab-authors.php:14 views/admin/help-tab-taxonomies.php:19
+msgid "The absolute maximum allowed is 50.000 per sitemap. Reduce this number if you experience errors or slow sitemaps."
+msgstr "El máximo absoluto permitido es de 50.000 por mapa del sitio. Reduce este número si estás experimentando errores o mapas del sitio lentos."
+
+#: views/admin/help-tab-taxonomies.php:14
+msgid "Adjusts the Priority of each taxonomy term based on the relative number of attributed posts."
+msgstr "Ajusta la prioridad de cada término de taxonomía en base al número relativo de entradas atribuidas."
+
+#. translators: Github project URL
+#: views/admin/help-tab-support.php:15 views/admin/sidebar-contribute.php:16
+msgid "For feature requests, reporting issues or contributing code, you can find and fork this plugin on <a href=\"%s\" target=\"_blank\">Github</a>."
+msgstr "Para solicitar características, informar de problemas o contribuir con código, puedes encontrar y bifurcar este plugin en <a href=\"%s\" target=\"_blank\">GitHub</a>."
+
+#. translators: Review page URL and Translation page URL on WordPress.org
+#: views/admin/help-tab-support.php:10 views/admin/sidebar-contribute.php:9
+msgid "If you would like to contribute and share with the rest of the WordPress community, please consider writing a quick <a href=\"%1$s\" target=\"_blank\">Review</a> or help out with <a href=\"%2$s\" target=\"_blank\">Translating</a>!"
+msgstr "Si te gustaría contribuir y compartir con el resto de la comunidad WordPress, por favor, considera escribir una rápida <a href=\"%1$s\" target=\"_blank\">reseña</a> o ¡ayudar a <a href=\"%2$s\" target=\"_blank\">traducir</a>!"
+
+#. translators: Plugin name, Support forum URL on WordPress.org
+#: views/admin/help-tab-support.php:5
+msgid "These options are provided by %1$s. For help, please go to <a href=\"%2$s\" target=\"_blank\">Support</a>."
+msgstr "Estas opciones son proporcionadas por %1$s. Para ayuda, por favor, dirígete al <a href=\"%2$s\" target=\"_blank\">soporte</a>."
+
+#: views/admin/help-tab-sitemaps.php:2
+msgid "XML sitemaps list the web pages of your site to tell search engines about the organization of your site content. Search engine web crawlers read this file to more intelligently crawl your site."
+msgstr "Los mapas de sitio XML listan las páginas web de tu sitio para indicarles a los motores de búsqueda la organización del contenido de tu sitio. Los rastreadores web de los motores de búsqueda leen este archivo para rastrear tu sitio de forma más inteligente."
+
+#. Translators: Page title https://moz.com/blog/xml-sitemaps
+#: views/admin/help-tab-sidebar.php:23
+msgid "XML Sitemaps: The Most Misunderstood Tool in the SEO's Toolbox"
+msgstr "Mapas del sitio XML: La herramienta más incomprendida de la caja de herramientas de SEO"
+
+#. Translators: Page title https://support.google.com/webmasters/answer/7451001
+#: views/admin/help-tab-sidebar.php:20
+msgid "Manage sitemaps with the Sitemaps report"
+msgstr "Gestionar los mapas del sitio con el informe de mapas del sitio"
+
+#. Translators: Page title
+#. https://developers.google.com/search/docs/advanced/sitemaps/overview
+#: views/admin/help-tab-sidebar.php:17
+msgid "Learn more about sitemaps on Google Search Console Help"
+msgstr "Aprende más sobre los mapas del sitio en la ayuda de Google Search Console"
+
+#: views/admin/help-tab-robots.php:12
+msgid "Robots.txt Specifications"
+msgstr "Especificaciones del robots.txt"
+
+#: views/admin/help-tab-robots.php:12
+msgid "Learn about robots.txt files"
+msgstr "Aprende más sobre los archivos robots.txt"
+
+#: views/admin/help-tab-robots.php:12
+msgid "For more help see %s and %s."
+msgstr "Para más ayuda mira %s y %s."
+
+#: views/admin/help-tab-robots.php:9
+msgid "Open robots.txt Tester"
+msgstr "Abrir el probador de robots.txt"
+
+#: views/admin/help-tab-post-types.php:25
+msgid "Adjusts the Priority based on factors like age, comments, sticky post or blog page."
+msgstr "Ajusta la prioridad en base a factores como la antigüedad, comentarios, entrada fija o página del blog."
+
+#: views/admin/help-tab-post-types.php:11
+msgid "Choose Split by Month if you experience errors or slow sitemaps."
+msgstr "Elige dividir por mes si estás experimentando errores o mapas del sitio lentos."
+
+#: views/admin/help-tab-ping.php:9
+msgid "Pings are limited to once per hour for your XML Sitemap and once per 5 minutes for your Google News Sitemap."
+msgstr "Para tu mapa del sitio XML, los pings están limitados a una vez por hora y a una vez cada 5 minutos para tu mapa del sitio de Google News."
+
+#. translators: Plugin name, Reading Settings URL
+#: views/admin/help-tab-ping.php:4
+msgid "If desired, %1$s will automatically alert search engines of your updated <a href=\"%2$s\">XML Sitemaps</a> upon each new publication."
+msgstr "Si lo deseas, %1$s alertará automáticamente a los motores de búsqueda de la actualización de tu <a href=\"%2$s\">mapa del sitio XML</a> en cada nueva publicación."
+
+#: views/admin/help-tab-news.php:16
+msgid "It is strongly recommended to submit your news sitemap to your Google Search Console account to monitor for warnings or errors."
+msgstr "Se recomienda encarecidamente que envíes tu mapa del sitio de noticias a tu cuenta de Google Search Console para vigilar si hay advertencias o errores."
+
+#. translators: WordPress site domain
+#: views/admin/help-tab-allowed-domains.php:2
+msgid "By default, only the domain %s as used in your WordPress site address is allowed."
+msgstr "Por defecto, solo se permite el dominio %s tal como se usa en la dirección de tu sitio WordPress."
+
+#: views/admin/help-tab-advanced.php:6 views/admin/help-tab-advanced.php:12
+msgid "Start each URL on a new line."
+msgstr "Inicia cada URL en una nueva línea."
+
+#: views/admin/help-tab-advanced.php:5
+msgid "Optionally add a priority value between 0 and 1, separated with a space after the URL."
+msgstr "Opcionalmente, añade después de la URL un valor de prioridad entre 0 y 1, separado con un espacio."
+
+#: views/admin/help-tab-advanced.php:4 views/admin/help-tab-advanced.php:11
+msgid "Add the full URL, including protocol (http/https) and domain."
+msgstr "Añade la URL completa, incluyendo el protocolo (http/https) y el dominio."
+
+#: views/admin/field-sitemap-post-type.php:60
+#: views/admin/help-tab-post-types.php:29
+msgid "Update the Last Changed date on each new comment."
+msgstr "Actualiza la fecha del último cambio con cada nuevo comentario."
+
+#. translators: Post type name and post count
+#: views/admin/field-sitemap-post-type.php:9
+msgid "Include %s"
+msgstr "Incluir %s"
+
+#: views/admin/field-news-post-type.php:11
+msgid "Custom post types that do not use the post category taxonomy, cannot be included as long as any category is selected below."
+msgstr "Los tipos de contenido personalizado que no usen la taxonomía de la categoría de entradas no pueden ser incluidos hasta que se seleccione cualquier categoría a continuación."
+
+#: views/admin/field-news-ping-log.php:13
+msgid "Maximum log entries"
+msgstr "Máximas entradas en el registro"
+
+#: views/admin/field-news-labels.php:4 views/admin/help-tab-news-labels.php:5
+#: views/admin/sidebar-news-links.php:4
+msgid "Google News Publisher Center"
+msgstr "Centro de editores de Google News"
+
+#: views/admin/field-news-labels.php:4 views/admin/help-tab-news-labels.php:5
+msgid "Source labels inside a News Sitemap are no longer supported by Google News. To manage your site's labels, please go to the %s."
+msgstr "Las etiquetas de origen dentro de un mapa de sitio de noticias ya no compatibles con Google News. Para gestionar las etiquetas de tu sitio, por favor, ve a %s."
+
+#: models/functions.admin.php:14
+msgid "Rate ★★★★★"
+msgstr "Valorar ★★★★★"
+
+#: models/functions.admin.php:13
+msgid "Support"
+msgstr "Soporte"
+
+#: controllers/class.xmlsf-admin.php:382
+msgid "No conflicting static files found."
+msgstr "No se han encontrado archivos estáticos en conflicto."
+
+#. Translators: static file name
+#: controllers/class.xmlsf-admin.php:255
+msgid "File %s not in the list of allowed files!"
+msgstr "¡El archivo %s no está incluido en la lista de archivos permitidos!"
+
+#: controllers/class.xmlsf-admin.php:160
+msgid "XML Sitemaps are not available because of your site&#8217;s visibility settings (above)."
+msgstr "No están disponibles los mapas del sitio XML debido a los ajustes de visibilidad de tu sitio (arriba)."
+
+#: controllers/class.xmlsf-admin.php:99 controllers/class.xmlsf-admin.php:201
+#: views/admin/field-ping.php:2
+msgid "Ping Services"
+msgstr "Servicios de ping"
+
+#: controllers/class.xmlsf-admin-sitemap.php:424
+#: views/admin/page-sitemap.php:14
+msgid "Post types"
+msgstr "Tipos de contenido"
+
+#: controllers/class.xmlsf-admin-sitemap.php:359
+#: views/admin/field-sitemap-custom.php:2 views/admin/help-tab-advanced.php:9
+msgid "External XML Sitemaps"
+msgstr "Mapas del sitio XML externos"
+
+#: controllers/class.xmlsf-admin-sitemap.php:357
+#: views/admin/field-sitemap-urls.php:2 views/admin/help-tab-advanced.php:2
+msgid "External web pages"
+msgstr "Páginas web externas"
+
+#: controllers/class.xmlsf-admin-sitemap.php:346
+#: controllers/class.xmlsf-admin-sitemap.php:434
+#: views/admin/field-sitemap-taxonomies.php:3 views/admin/page-sitemap.php:15
+msgid "Taxonomies"
+msgstr "Taxonomías"
+
+#: controllers/class.xmlsf-admin-sitemap-news.php:384
+msgid "There appear to be no post types available."
+msgstr "Parece que no hay ningún tipo de contenido disponible."
+
+#: controllers/class.xmlsf-admin-sitemap-news.php:235
+#: views/admin/field-news-post-type.php:2
+msgid "Post type"
+msgstr "Tipo de contenido"
+
+#: controllers/class.xmlsf-admin-sitemap-news.php:210
+#: views/admin/field-news-ping-log.php:3
+msgid "Ping log"
+msgstr "Registro de pings"
+
+#. Translators: Sitemap tag name, Advanced plugin name
+#: controllers/class.xmlsf-admin-sitemap-news.php:192
+#: controllers/class.xmlsf-admin-sitemap-news.php:322
+#: views/admin/field-news-keywords.php:3 views/admin/field-news-keywords.php:11
+msgid "Keywords"
+msgstr "Palabras clave"
+
+#. Translators: Sitemap tag name, Advanced plugin name
+#: controllers/class.xmlsf-admin-sitemap-news.php:183
+#: views/admin/field-news-hierarchical.php:3
+#: views/admin/field-news-hierarchical.php:12
+msgid "Hierarchical post types"
+msgstr "Tipos de contenido jerárquico"
+
+#. Translators: Search engine / Service name
+#: controllers/class.xmlsf-admin-sitemap-news.php:44
+#: controllers/class.xmlsf-admin-sitemap.php:48
+msgid "Pinged %s with success."
+msgstr "Hecho ping a %s con éxito."
+
+#. Plugin Name of the plugin
+#. translators: Plugin name
+#: views/admin/help-tab-ping.php:5 views/admin/help-tab-support.php:6
+#: views/admin/notice-ad-insterter-feed.php:7
+#: views/admin/notice-aioseop-sitemap.php:3
+#: views/admin/notice-aioseop-sitemap.php:9
+#: views/admin/notice-catchbox-feed-redirect.php:6
+#: views/admin/notice-rankmath-sitemap.php:3
+#: views/admin/notice-rankmath-sitemap.php:9
+#: views/admin/notice-seoframework-sitemap.php:3
+#: views/admin/notice-seoframework-sitemap.php:9
+#: views/admin/notice-seopress-sitemap.php:3
+#: views/admin/notice-seopress-sitemap.php:9
+#: views/admin/notice-static-files.php:3 views/admin/notice-wpseo-sitemap.php:3
+#: views/admin/notice-wpseo-sitemap.php:9
+#: views/admin/notice-xmlsf-advanced-news.php:3
+#: views/admin/page-sitemap-news.php:9 views/admin/page-sitemap.php:9
+#: views/admin/sidebar-contribute.php:4
+msgid "XML Sitemap & Google News"
+msgstr "XML Sitemap & Google News"
+
+#. Description of the plugin
+msgid "Feed the hungry spiders in compliance with the XML Sitemap and Google News protocols. Happy with the results? Please leave me a <strong><a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ravanhagen%40gmail%2ecom&item_name=XML%20Sitemap%20Feed\">tip</a></strong> for continued development and support. Thanks :)"
+msgstr "Alimenta a las arañas hambrientas cumpliendo los protocolos del mapa del sitio XML y de Google News. ¿Estás contento con los resultados? Por favor, déjame una <strong><a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ravanhagen%40gmail%2ecom&item_name=XML%20Sitemap%20Feed\">propina</a></strong> para continuar el desarrollo y el soporte. Gracias :)"
+
+#: views/admin/help-tab-news-labels.php:2
+msgid "Source labels provide more information about the content of your articles."
+msgstr "Las etiquetas de origen proporcionan más información sobre el contenido de tus artículos."
+
+#: models/functions.php:92 models/functions.php:107 xml-sitemap.php:320
+#: xml-sitemap.php:335
+msgid "Conditional sitemap tags do not work before the sitemap request filter is run. Before then, they always return false."
+msgstr "Las etiquetas condicionales del mapa del sitio no funcionan antes de ejecutar la consulta del filtro del mapa del sitio. Antes de eso, siempre devuelven falso."
+
+#: views/admin/field-sitemap-post-type.php:53
+#: views/admin/field-sitemap-taxonomy-settings.php:25
+#: views/admin/help-tab-post-types.php:23
+#: views/admin/help-tab-taxonomies.php:12
+msgid "Automatic Priority calculation."
+msgstr "Cálculo automático de prioridad."
+
+#. Translators: Search engine / Service name
+#. Translators: Search engine / Service name, interval number
+#. Translators: Search engine / Service name, response code number
+#: controllers/class.xmlsf-admin-sitemap-news.php:44
+#: controllers/class.xmlsf-admin-sitemap-news.php:49
+#: controllers/class.xmlsf-admin-sitemap-news.php:59
+#: controllers/class.xmlsf-admin-sitemap-news.php:81
+#: controllers/class.xmlsf-admin-sitemap-news.php:131
+msgid "Google News"
+msgstr "Google News"
+
+#: views/admin/meta-box-news.php:4
+msgid "Exclude from Google News Sitemap"
+msgstr "Excluir del mapa del sitio de Google News"
+
+#. Author URI of the plugin
+msgid "https://status301.net/"
+msgstr "https://status301.net/"
+
+#. Author of the plugin
+msgid "RavanH"
+msgstr "RavanH"
+
+#. Plugin URI of the plugin
+msgid "https://status301.net/wordpress-plugins/xml-sitemap-feed/"
+msgstr "https://status301.net/wordpress-plugins/xml-sitemap-feed/"
+
+#: views/admin/field-sitemap-taxonomy-settings.php:8
+#: views/admin/help-tab-taxonomies.php:2
+msgid "Include taxonomies"
+msgstr "Incluir taxonomías"
+
+#: controllers/class.xmlsf-admin.php:78 controllers/class.xmlsf-admin.php:117
+#: views/admin/field-sitemaps.php:3
+msgid "Enable XML sitemaps"
+msgstr "Habilitar Mapas de Sitio XML"
+
+#: controllers/class.xmlsf-admin-sitemap.php:261 views/admin/meta-box.php:8
+msgid "Leave empty for automatic Priority as configured on %1$s > %2$s."
+msgstr "Deje vacío para Prioridad automática como se configuró en %1$s > %2$s."
+
+#: views/admin/meta-box.php:17
+msgid "Exclude from XML Sitemap"
+msgstr "Excluir del Mapa de Sitio XML"
+
+#: controllers/class.xmlsf-admin-sitemap.php:225
+#: controllers/class.xmlsf-admin-sitemap.php:312
+#: controllers/class.xmlsf-admin-sitemap.php:313
+#: controllers/class.xmlsf-admin-sitemap.php:414 views/admin/page-sitemap.php:6
+msgid "XML Sitemap"
+msgstr "Mapa de Sitio XML"
+
+#: views/admin/help-tab-news-labels.php:6
+msgid "What does each source label mean?"
+msgstr "¿Qué significa cada etiqueta de origen?"
+
+#: views/admin/help-tab-news-labels.php:6
+msgid "Read more about source labels on %s"
+msgstr "Lee más sobre las etiquetas de origen en %s."
+
+#: controllers/class.xmlsf-admin-sitemap-news.php:255
+#: controllers/class.xmlsf-admin-sitemap-news.php:344
+#: views/admin/field-news-labels.php:2
+msgid "Source labels"
+msgstr "Etiquetas de origen"
+
+#: views/admin/help-tab-news-categories.php:2
+msgid "If you wish to limit posts that will feature in your News Sitemap to certain categories, select them here. If no categories are selected, posts of all categories will be included in your News Sitemap."
+msgstr "Si deseas limitar a ciertas categorías las entradas que aparecerán en tu mapa del sitio de noticias, selecciónalas aquí. Si no seleccionas ninguna categoría, en tu mapa del sitio de noticias serán incluidas las entradas de todas las categorías."
+
+#: views/admin/field-news-categories.php:6
+msgid "Limit to posts in these post categories:"
+msgstr "Limitar las entradas en estas categorías de entradas:"
+
+#: views/admin/notice-rankmath-date-redirect.php:13
+#: views/admin/notice-seopress-date-redirect.php:13
+#: views/admin/notice-wpseo-date-redirect.php:13
+msgid "Included post types"
+msgstr "Tipos de contenido incluidos"
+
+#. translators: Site Title linked to Options > General
+#: views/admin/help-tab-news-name.php:3
+msgid "The publication name should match the name submitted on the Google News Publisher Center. If you wish to change it, please read <a href=\"https://support.google.com/news/publisher/answer/40402\" target=\"_blank\">Updated publication name</a>."
+msgstr "El nombre de la publicación debe coincidir con el nombre enviado al centro de editores de Google News. Si deseas cambiarlo, por favor, lee sobre cómo <a href=\"https://support.google.com/news/publisher/answer/40402\" target=\"_blank\">actualizar el nombre de la publicación</a>."
+
+#. translators: Site Title linked to Options > General
+#: views/admin/field-news-name.php:5 views/admin/help-tab-news-name.php:2
+msgid "By default, the general %s setting will be used."
+msgstr "Por defecto, serán utilizados los parámetros generales %s."
+
+#: controllers/class.xmlsf-admin-sitemap-news.php:228
+#: controllers/class.xmlsf-admin-sitemap-news.php:300
+#: views/admin/field-news-name.php:2
+msgid "Publication name"
+msgstr "Nombre de la publicación"
+
+#: views/admin/help-tab-news.php:12
+msgid "When you are done configuring and preparing your news content and you are convinced your site adheres to the <a href=\"https://support.google.com/news/publisher-center/answer/6204050\" target=\"_blank\">Google News guidelines</a>, go ahead and <a href=\"https://publishercenter.google.com/\" target=\"_blank\">submit your site for inclusion</a>!"
+msgstr "Cuando termines de configurar y preparar el contenido de tus noticias y estés convencido de que tu sitio cumple las <a href=\"https://support.google.com/news/publisher-center/answer/6204050\" target=\"_blank\">directrices de Google News</a>, ¡sigue adelante y <a href=\"https://publishercenter.google.com/\" target=\"_blank\">envía tu sitio para su inclusión</a>!"
+
+#: views/admin/page-sitemap-news.php:9
+msgid "These settings control the Google News Sitemap generated by the %s plugin."
+msgstr "Estos parámetros controlan el Mapa de Sitio Noticias Google generado por el plugin %s."
+
+#. translators: WordPress site domain
+#: views/admin/help-tab-allowed-domains.php:3
+msgid "This means that all URLs that use another domain (custom URLs or using a plugin like Page Links To) are filtered from the XML Sitemap. However, if you are the verified owner of other domains in your Google/Bing Webmaster Tools account, you can include these in the same sitemap. Add these domains, without protocol (http/https) each on a new line. Note that if you enter a domain with www, all URLs without it or with other subdomains will be filtered."
+msgstr "Esto significa que todas las URL que usan otro dominio (URL personalizadas o que usan un plugin como Page Links To) son filtradas del mapa del sitio XML. Sin embargo, si eres el propietario verificado de otros dominios en tu cuenta de las herramientas para webmasters de Google o Bing, puedes incluirlos en el mismo mapa del sitio. Añade estos dominios, sin protocolo (http/https), cada uno en una nueva línea. Ten en cuenta que si introduces un dominio con www, todas las URL que no lo lleven o con otros subdominios serán filtradas."
+
+#: views/admin/field-sitemap-domains.php:4
+msgid "Additional domains to allow in the XML Sitemaps:"
+msgstr "Dominios adicionales a permitir en los mapas del sitio XML:"
+
+#: controllers/class.xmlsf-admin.php:83 controllers/class.xmlsf-admin.php:129
+#: views/admin/field-sitemap-domains.php:2
+msgid "Allowed domains"
+msgstr "Dominios permitidos"
+
+#: views/admin/field-sitemap-urls.php:4
+msgid "Additional web pages to append in an extra XML Sitemap:"
+msgstr "Páginas web adicionales para añadir en un mapa del sitio XML adicional:"
+
+#: views/admin/help-tab-advanced.php:15
+msgid "Only valid sitemaps are allowed in the Sitemap Index. Use your Google/Bing Webmaster Tools to verify!"
+msgstr "Solo los mapas del sitio válidos están permitidos en el índice del mapa del sitio. ¡Usa tus herramientas de webmaster de Google o Bing para verificarlo!"
+
+#: views/admin/field-sitemap-custom.php:4
+msgid "Additional XML Sitemaps to append to the main XML Sitemap Index:"
+msgstr "Mapas del sitio XML adicionales para añadir al índice del mapa del sitio XML principal:"
+
+#: views/admin/field-sitemap-taxonomies.php:21
+#: views/admin/field-sitemap-taxonomy-settings.php:12
+msgid "No taxonomies available for the currently included post types."
+msgstr "No hay taxonomías disponibles para los tipos de publicaciones incluidas actualmente."
+
+#: views/admin/field-sitemap-post-type.php:75
+msgid "Attached images"
+msgstr "Imágenes adjuntas"
+
+#: views/admin/field-sitemap-post-type.php:66
+#: views/admin/help-tab-post-types.php:35
+msgid "Add image tags for"
+msgstr "Añada etiquetas de imagen para"
+
+#: views/admin/help-tab-post-types.php:20
+msgid "Priority can be overridden on individual posts."
+msgstr "La Prioridad se puede anteponer a publicaciones individuales."
+
+#: views/admin/field-sitemap-author-settings.php:13
+#: views/admin/field-sitemap-post-type.php:45
+#: views/admin/field-sitemap-taxonomy-settings.php:18
+#: views/admin/help-tab-authors.php:7 views/admin/help-tab-post-types.php:17
+#: views/admin/help-tab-taxonomies.php:7 views/admin/meta-box.php:3
+msgid "Priority"
+msgstr "Prioridad"
+
+#: views/admin/field-sitemap-post-type.php:18
+#: views/admin/help-tab-post-types.php:9
+#: views/admin/notice-rankmath-date-redirect.php:11
+#: views/admin/notice-seopress-date-redirect.php:11
+#: views/admin/notice-wpseo-date-redirect.php:11
+msgid "Split by"
+msgstr "Dividir por"
+
+#: views/admin/field-sitemap-post-type.php:27
+msgid "Month"
+msgstr "Mes"
+
+#: views/admin/field-sitemap-post-type.php:24
+msgid "Year"
+msgstr "Año"
+
+#. translators: Writing Settings URL
+#: views/admin/page-sitemap-news.php:10 views/admin/page-sitemap.php:10
+msgid "For ping options, go to %s."
+msgstr "Para opciones de ping, ve a %s."
+
+#. translators: Plugin name
+#: views/admin/page-sitemap.php:9
+msgid "These settings control the XML Sitemaps generated by the %s plugin."
+msgstr "Estos parámetros controlan los Mapas de Sitio XML generados por el plugin %s."
+
+#: views/admin/sidebar-contribute.php:4
+msgid "Donate to keep the free %s plugin development & support going!"
+msgstr "Done para conservar gratutio el desarrollo del plugin %s ¡y apóyelo!"
+
+#: views/admin/help-tab-robots.php:5
+msgid "Only add rules here when you know what you are doing, otherwise you might break search engine access to your site."
+msgstr "Únicamente añada reglas aquí cuando sepa lo que está haciendo, de otro modo puede cortar el acceso del motor de búsqueda a su sitio."
+
+#: views/admin/help-tab-robots.php:2
+msgid "These rules will not have effect when you are using a static robots.txt file."
+msgstr "Estas reglas no tendrán efecto cuando utilice un archivo robots.txt estático."
+
+#: views/admin/field-robots.php:4
+msgid "Rules that will be appended to the %s generated by WordPress:"
+msgstr "Reglas que serán añadidas al archivo %s generado por WordPress:"
+
+#: controllers/class.xmlsf-admin.php:93 controllers/class.xmlsf-admin.php:141
+#: views/admin/field-robots.php:2
+msgid "Additional robots.txt rules"
+msgstr "Reglas robots.txt adicionales"
+
+#: controllers/class.xmlsf-admin-sitemap.php:44 views/admin/field-ping.php:13
+msgid "Bing & Yahoo"
+msgstr "Bing & Yahoo"
+
+#: controllers/class.xmlsf-admin-sitemap.php:44 views/admin/field-ping.php:6
+msgid "Google"
+msgstr "Google"
+
+#: controllers/class.xmlsf-admin-sitemap-news.php:130
+#: controllers/class.xmlsf-admin-sitemap-news.php:289
+#: views/admin/field-sitemaps.php:24 views/admin/page-sitemap-news.php:6
+#: views/admin/page-sitemap-news.php:48
+msgid "Google News Sitemap"
+msgstr "Mapa de Sitio Noticias Google"
+
+#: views/admin/field-sitemaps.php:7 views/admin/notice-aioseop-sitemap.php:14
+#: views/admin/notice-rankmath-sitemap.php:14
+#: views/admin/notice-seoframework-sitemap.php:14
+#: views/admin/notice-seopress-sitemap.php:14
+#: views/admin/notice-wpseo-sitemap.php:14 views/admin/page-sitemap.php:40
+msgid "XML Sitemap Index"
+msgstr "Índice de Mapas de Sitios XML"
+
+#: controllers/class.xmlsf-admin-sitemap.php:263 views/admin/meta-box.php:10
+msgid "XML Sitemap"
+msgstr "Mapa del sitio XML"

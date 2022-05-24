@@ -1,0 +1,78 @@
+.ced_cng_hide{display:none}.ced_ocor_row{padding:10px 0;width:100%}.ced_ocor_main_wrapper .ced_ocor_row .ced_ocor_columns.ced_ocor_label_wrap{float:left;width:25%}.ced_ocor_main_wrapper .ced_ocor_row .ced_ocor_columns.ced_ocor_columns_content{float:left;width:75%;margin-top:10px;}.ced_ocor_columns.ced_ocor_label_wrap>label{font-weight:700}.ced_ocor_general_settings_wrap .ced_ocor_columns .select2-container.select2-container-multi{width:50%}.ced_ocor_row .spinner{float:none}.ced_ocor_attachment_action{margin:10px 0;text-align:center;width:140px}.ced_ocor_attachment_wrapper{border:1px solid #ddd;padding:10px;text-align:center;max-width:115px}.ced_ocor_attachment_wrapper>img{width:50%}.ced_ocor_attachment_selector{background-color:#999;border:none;border-radius:50%;color:#fff;cursor:pointer;display:inline-block;font-size:20px;font-weight:700;height:25px;line-height:20px;position:absolute;right:-10px;text-align:center;top:-10px;width:25px}
+.wramvp_img_email_image{
+  background-color: #fff;
+ border-radius: 6px;
+ float: right;
+ margin-right: 35px;
+ position: relative;
+}
+
+/*===========================================
+=            PROMOTIONAL SIDEBAR            =
+===========================================*/
+.ced_ocor_contents_wrapper{
+	float: left;
+	width: 68%;
+	margin-right: 2%;
+}
+.ced_ocor_email_image {
+	float: left;
+	width: 30%;
+}
+.ced_ocor_email_main_content {
+	background-color: #ffffff;
+	padding: 10px;
+	width: 300px;
+	box-shadow: 0 3px 9px -4px rgba(0,0,0,0.5);
+	position: relative;
+	margin: 0px auto 0;
+}
+.ced_ocor_email_main_content .ced-recom h4 {
+	margin: 0;
+	font-size: 14px;
+}
+.ced_ocor_email_main_content a {
+	display: block;
+}
+.ced_ocor_email_main_content a img {
+	width: 100%;
+}
+.button-primary.ced_ocor_cross_image {
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+	padding: 0px;
+	position: absolute;
+	top: -5px;
+	right: -5px;
+	display: block;
+	text-align: center;
+	line-height: 16px;
+	box-shadow: none;
+}
+.ced_ocor_cross_image  > a {
+	display: block;
+	position: relative;
+}
+.wramvp-support::after,
+.wramvp-support ul li::after,
+.ced_ocor_row::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.wramvp-support {
+	padding: 15px 0;
+}
+.wramvp-support span a {
+	display: block;
+}
+.wramvp-support .wramvp-support__left {
+	float: left;
+	width: 43%;
+}
+.wramvp-support .wramvp-support__right {
+	float: left;
+	width: 57%;
+}
+/*=====  End of PROMOTIONAL SIDEBAR  ======*/

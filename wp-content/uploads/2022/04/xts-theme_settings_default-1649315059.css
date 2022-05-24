@@ -1,0 +1,205 @@
+.wd-age-verify{
+	background-image: url(https://andinalicores.com.ec/wp-content/uploads/2020/02/drink-popup-min.jpg);
+}
+
+.wd-popup.wd-promo-popup{
+	background-color:#111111;
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:left center;
+}
+
+.header-banner{
+	background-color:#0a0a0a;
+}
+
+.page-title-default{
+	background-color:#0a0a0a;
+	background-size:cover;
+	background-position:center center;
+}
+
+.footer-container{
+	background-color:#092143;
+}
+
+:root{
+--wd-text-font:"Titillium Web", Arial, Helvetica, sans-serif;
+--wd-text-font-weight:400;
+--wd-text-color:#777777;
+--wd-text-font-size:14px;
+}
+:root{
+--wd-title-font:"Titillium Web", Arial, Helvetica, sans-serif;
+--wd-title-font-weight:600;
+--wd-title-color:#242424;
+}
+:root{
+--wd-entities-title-font:"Titillium Web", Arial, Helvetica, sans-serif;
+--wd-entities-title-font-weight:500;
+--wd-entities-title-color:#333333;
+--wd-entities-title-color-hover:rgb(51 51 51 / 65%);
+}
+:root{
+--wd-alternative-font:"Titillium Web", Arial, Helvetica, sans-serif;
+}
+:root{
+--wd-widget-title-font:"Titillium Web", Arial, Helvetica, sans-serif;
+--wd-widget-title-font-weight:600;
+--wd-widget-title-transform:uppercase;
+--wd-widget-title-color:#333;
+--wd-widget-title-font-size:16px;
+}
+:root{
+--wd-header-el-font:"Titillium Web", Arial, Helvetica, sans-serif;
+--wd-header-el-font-weight:600;
+--wd-header-el-transform:uppercase;
+--wd-header-el-font-size:13px;
+}
+html .product.category-grid-item .wd-entities-title, html .product.category-grid-item.cat-design-replace-title .wd-entities-title, html .categories-style-masonry-first .category-grid-item:first-child .wd-entities-title, html .product.wd-cat .wd-entities-title{
+	font-size: 16px;
+}
+
+:root{
+--wd-primary-color:#f4a51c;
+}
+:root{
+--wd-alternative-color:#fbbc34;
+}
+:root{
+--wd-link-color:#012c5c;
+--wd-link-color-hover:#5d9ed1;
+}
+:root{
+--btn-default-bgcolor:#f7f7f7;
+}
+:root{
+--btn-default-bgcolor-hover:#efefef;
+}
+:root{
+--btn-shop-bgcolor:#f4a51c;
+}
+:root{
+--btn-shop-bgcolor-hover:#DE961A;
+}
+:root{
+--btn-accent-bgcolor:#f4a51c;
+}
+:root{
+--btn-accent-bgcolor-hover:#DE961A;
+}
+:root{
+--notices-success-bg:#459647;
+}
+:root{
+--notices-success-color:#fff;
+}
+:root{
+--notices-warning-bg:#E0B252;
+}
+:root{
+--notices-warning-color:#fff;
+}
+	:root{
+	
+			--wd-form-brd-radius: 5px;
+	
+	
+	--wd-form-brd-width: 2px;
+
+	--btn-default-color: #333;
+	--btn-default-color-hover: #333;
+
+	--btn-shop-color: #fff;
+	--btn-shop-color-hover: #fff;
+
+	--btn-accent-color: #fff;
+	--btn-accent-color-hover: #fff;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+			--btn-default-brd-radius: 5px;
+		--btn-default-box-shadow: none;
+		--btn-default-box-shadow-hover: none;
+	
+			--btn-shop-brd-radius: 5px;
+		--btn-shop-box-shadow: none;
+		--btn-shop-box-shadow-hover: none;
+	
+			--btn-accent-brd-radius: 5px;
+		--btn-accent-box-shadow: none;
+		--btn-accent-box-shadow-hover: none;
+	
+		}
+
+	
+	
+	/* Site width */
+		/* Header Boxed */
+	@media (min-width: 1025px) {
+		.whb-boxed:not(.whb-sticked):not(.whb-full-width) .whb-main-header {
+			max-width: 1192px;
+		}
+	}
+
+	.container {
+		max-width: 1222px;
+	}
+	
+	
+	@media (min-width: 1222px) {
+
+		[data-vc-full-width]:not([data-vc-stretch-content]) {
+			padding-left: calc((100vw - 1222px) / 2);
+			padding-right: calc((100vw - 1222px) / 2);
+		}
+
+		.platform-Windows [data-vc-full-width]:not([data-vc-stretch-content]) {
+			padding-left: calc((100vw - 1239px) / 2);
+			padding-right: calc((100vw - 1239px) / 2);
+		}
+	}
+
+	
+	/* Quick view */
+	div.wd-popup.popup-quick-view {
+		max-width: 920px;
+	}
+
+
+
+
+	.woodmart-woocommerce-layered-nav .wd-scroll-content {
+		max-height: 280px;
+	}
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: "woodmart-font";
+	src: url("//andinalicores.com.ec/wp-content/themes/woodmart/fonts/woodmart-font.woff2?v=6.3.3") format("woff2");
+}
+
+.notifications-sticky div.wpcf7-response-output {
+	display:none;
+}
+
+.main-nav .item-level-0 > a {
+    height: 40px;
+    font-size: 11px;
+}
+
+.search-by-category .input-dropdown-inner > a {
+  padding-right: 5px;
+  padding-left: 8px;  
+	font-size: 10px;
+}
+.search-button .search-button-icon:before {
+    color: yellow;
+}

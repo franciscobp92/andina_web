@@ -1,0 +1,68 @@
+{
+    "globalData": {
+        "uniqueCountId": 2
+    },
+    "nextStep": [],
+    "finalReport": {
+        "wp-extract-error-file-no-core": {
+            "shortMsg": "Files not extracted",
+            "level": 2,
+            "longMsg": "FILE: <b>.user.ini<\/b><br>Message: ZipArchive::extractTo(\/www\/wwwroot\/andinalicores.com.ec\/.user.ini): failed to open stream: Operation not permitted\n<br><br>",
+            "sections": [
+                "files"
+            ],
+            "faqLink": null,
+            "priority": 10,
+            "open": false,
+            "longMsgMode": "html"
+        },
+        "__auto_unique_id__1": {
+            "shortMsg": "DATA-REPLACE ERROR: Serialization",
+            "level": 2,
+            "longMsg": "ENGINE: serialize data serial check error\n\tDATA: a:231:{s:11:\"jquery-core\";a:8:{s:6:\"handle\";s:11:\"jquery-core\";s:3:\"src\";s:36:\"\/wp-includes\/js\/jquery\/jquery.min.js\";s:4:\"deps\";a:0:{}s:3:\"ver\";s:5:\"3.6.0\";s:4:\"args\";N;s:5:\"extra\";a:0:{}s:10:\"t [...]\n\tTABLE:al_options COLUMN: option_value WHERE: `option_id` = \"272724\"",
+            "sections": [
+                "search_replace"
+            ],
+            "faqLink": null,
+            "priority": 10,
+            "open": false,
+            "longMsgMode": "pre"
+        },
+        "__auto_unique_id__2": {
+            "shortMsg": "Deactivated Plugin:  WPBakery Page Builder",
+            "level": 2,
+            "longMsg": "This plugin is deactivated automatically, because it requires a reacivation to work properly.  <b>Please reactivate from the WordPress admin panel after logging in.<\/b> This will re-enable your site's frontend.",
+            "sections": [
+                "general"
+            ],
+            "faqLink": null,
+            "priority": 10,
+            "open": false,
+            "longMsgMode": "html"
+        },
+        "wp-config-changes": {
+            "shortMsg": "wp-config.php changes",
+            "level": 0,
+            "longMsg": "        <a class=\"dup-ligthbox-link\" data-dup-ligthbox=\"dup-html-id-1-1653415392-6291\" >wp-config.php changes<\/a>\r\n        <div id=\"dup-html-id-1-1653415392-6291\" class=\"dub-ligthbox-content close\">\r\n            <div class=\"wrapper\" >\r\n                <h2 class=\"title\" >WP-CONFIG.PHP COMPARE<\/h2>\r\n                <div class=\"content\" ><div class=\"row-cols-2\"><div class=\"col col-1\"><b>Original wp-config.php<\/b><pre>&lt;?php\n\n\/** Enable W3 Total Cache *\/\n\n\n\/**\n * The base configuration for WordPress\n *\n * The wp-config.php creation script uses this file during the\n * installation. You don't have to use the web site, you can\n * copy this file to &quot;wp-config.php&quot; and fill in the values.\n *\n * This file contains the following configurations:\n *\n * * MySQL settings\n * * Secret keys\n * * Database table prefix\n * * ABSPATH\n *\n * @link https:\/\/wordpress.org\/support\/article\/editing-wp-config-php\/\n *\n * @package WordPress\n *\/\n\n\/\/ ** MySQL settings - You can get this info from your web host ** \/\/\n\/** The name of the database for WordPress *\/\ndefine( 'DB_NAME', '**OBSCURED**' );\n\n\/** MySQL database username *\/\ndefine( 'DB_USER', '**OBSCURED**' );\n\n\/** MySQL database password *\/\ndefine( 'DB_PASSWORD', '**OBSCURED**' );\n\n\/** MySQL hostname *\/\ndefine( 'DB_HOST', '**OBSCURED**' );\n\n\/** Database Charset to use in creating database tables. *\/\ndefine( 'DB_CHARSET', 'utf8mb4' );\n\n\n\/** The Database Collate type. Don't change this if in doubt. *\/\ndefine( 'DB_COLLATE', '' );\n\n\/**#@+\n * Authentication Unique Keys and Salts.\n *\n * Change these to different unique phrases!\n * You can generate these using the {@link https:\/\/api.wordpress.org\/secret-key\/1.1\/salt\/ WordPress.org secret-key service}\n * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.\n *\n * @since 2.6.0\n *\/\ndefine( 'AUTH_KEY',         '**OBSCURED**' );\ndefine( 'SECURE_AUTH_KEY',  '**OBSCURED**' );\ndefine( 'LOGGED_IN_KEY',    '**OBSCURED**' );\ndefine( 'NONCE_KEY',        '**OBSCURED**' );\ndefine( 'AUTH_SALT',        '**OBSCURED**' );\ndefine( 'SECURE_AUTH_SALT', '**OBSCURED**' );\ndefine( 'LOGGED_IN_SALT',   '**OBSCURED**' );\ndefine( 'NONCE_SALT',       '**OBSCURED**' );\n\ndefine('JWT_AUTH_SECRET_KEY', 'lkkyjfcaiwbxw!ckcnskjacnkasj');\/\/Clave jwt\ndefine('JWT_AUTH_CORS_ENABLE', true);\n\/**#@-*\/\n\n\/**\n * WordPress Database Table prefix.\n *\n * You can have multiple installations in one database if you give each\n * a unique prefix. Only numbers, letters, and underscores please!\n *\/\n$table_prefix = 'al_';\n\n\/**\n * For developers: WordPress debugging mode.\n *\n * Change this to true to enable the display of notices during development.\n * It is strongly recommended that plugin and theme developers use WP_DEBUG\n * in their development environments.\n *\n * For information on other constants that can be used for debugging,\n * visit the documentation.\n *\n * @link https:\/\/wordpress.org\/support\/article\/debugging-in-wordpress\/\n *\/\ndefine( 'WP_DEBUG', false );\n\ndefine( 'WP_DEBUG_LOG', true );\n\n\/* That's all, stop editing! Happy publishing. *\/\n\n\/** Absolute path to the WordPress directory. *\/\nif ( ! defined( 'ABSPATH' ) ) {\n\tdefine( 'ABSPATH', __DIR__ . '\/' );\n}\n\n\/** Sets up WordPress vars and included files. *\/\nrequire_once ABSPATH . 'wp-settings.php';\n<\/pre><\/div><div class=\"col col-2\"><b>New wp-config.php<\/b><pre>&lt;?php\n\n\/** Enable W3 Total Cache *\/\n\n\n\/**\n * The base configuration for WordPress\n *\n * The wp-config.php creation script uses this file during the\n * installation. You don't have to use the web site, you can\n * copy this file to &quot;wp-config.php&quot; and fill in the values.\n *\n * This file contains the following configurations:\n *\n * * MySQL settings\n * * Secret keys\n * * Database table prefix\n * * ABSPATH\n *\n * @link https:\/\/wordpress.org\/support\/article\/editing-wp-config-php\/\n *\n * @package WordPress\n *\/\n\n\/\/ ** MySQL settings - You can get this info from your web host ** \/\/\n\/** The name of the database for WordPress *\/\ndefine( 'DB_NAME', '**OBSCURED**' );\n\n\/** MySQL database username *\/\ndefine( 'DB_USER', '**OBSCURED**' );\n\n\/** MySQL database password *\/\ndefine( 'DB_PASSWORD', '**OBSCURED**' );\n\n\/** MySQL hostname *\/\ndefine( 'DB_HOST', '**OBSCURED**' );\n\n\/** Database Charset to use in creating database tables. *\/\ndefine( 'DB_CHARSET', 'utf8mb4' );\n\n\n\/** The Database Collate type. Don't change this if in doubt. *\/\ndefine( 'DB_COLLATE', '' );\n\n\/**#@+\n * Authentication Unique Keys and Salts.\n *\n * Change these to different unique phrases!\n * You can generate these using the {@link https:\/\/api.wordpress.org\/secret-key\/1.1\/salt\/ WordPress.org secret-key service}\n * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.\n *\n * @since 2.6.0\n *\/\ndefine( 'AUTH_KEY',         '**OBSCURED**' );\ndefine( 'SECURE_AUTH_KEY',  '**OBSCURED**' );\ndefine( 'LOGGED_IN_KEY',    '**OBSCURED**' );\ndefine( 'NONCE_KEY',        '**OBSCURED**' );\ndefine( 'AUTH_SALT',        '**OBSCURED**' );\ndefine( 'SECURE_AUTH_SALT', '**OBSCURED**' );\ndefine( 'LOGGED_IN_SALT',   '**OBSCURED**' );\ndefine( 'NONCE_SALT',       '**OBSCURED**' );\n\ndefine('JWT_AUTH_SECRET_KEY', 'lkkyjfcaiwbxw!ckcnskjacnkasj');\/\/Clave jwt\ndefine('JWT_AUTH_CORS_ENABLE', true);\n\/**#@-*\/\n\n\/**\n * WordPress Database Table prefix.\n *\n * You can have multiple installations in one database if you give each\n * a unique prefix. Only numbers, letters, and underscores please!\n *\/\n$table_prefix = 'al_';\n\n\/**\n * For developers: WordPress debugging mode.\n *\n * Change this to true to enable the display of notices during development.\n * It is strongly recommended that plugin and theme developers use WP_DEBUG\n * in their development environments.\n *\n * For information on other constants that can be used for debugging,\n * visit the documentation.\n *\n * @link https:\/\/wordpress.org\/support\/article\/debugging-in-wordpress\/\n *\/\ndefine( 'WP_DEBUG', false );\n\ndefine( 'WP_DEBUG_LOG', true );\n\n\/* That's all, stop editing! Happy publishing. *\/\n\n\/** Absolute path to the WordPress directory. *\/\nif ( ! defined( 'ABSPATH' ) ) {\n\tdefine( 'ABSPATH', __DIR__ . '\/' );\n}\n\n\/** Sets up WordPress vars and included files. *\/\nrequire_once ABSPATH . 'wp-settings.php';\n<\/pre><\/div><\/div><\/div>                <button class=\"close-button\" title=\"Close\" ><i class=\"fa fa-2x fa-times\"><\/i><\/button>\r\n            <\/div>\r\n        <\/div>\r\n        ",
+            "sections": [
+                "changes"
+            ],
+            "faqLink": null,
+            "priority": 10,
+            "open": true,
+            "longMsgMode": "html"
+        },
+        "htaccess-changes": {
+            "shortMsg": "htaccess changes",
+            "level": 0,
+            "longMsg": "        <a class=\"dup-ligthbox-link\" data-dup-ligthbox=\"dup-html-id-2-1653415392-6293\" >.htaccess changes<\/a>\r\n        <div id=\"dup-html-id-2-1653415392-6293\" class=\"dub-ligthbox-content close\">\r\n            <div class=\"wrapper\" >\r\n                <h2 class=\"title\" >HTACCESS COMPARE<\/h2>\r\n                <div class=\"content\" ><div class=\"row-cols-2\"><div class=\"col col-1\"><b>Original .htaccess<\/b><pre># BEGIN HTTPS Redirection Plugin\n&lt;IfModule mod_rewrite.c&gt;\nRewriteEngine On\nRewriteCond %{SERVER_PORT} !^443$\nRewriteRule ^(.*)$ https:\/\/%{HTTP_HOST}%{REQUEST_URI} [L,R=301]\n&lt;\/IfModule&gt;\n# END HTTPS Redirection Plugin\n\n# BEGIN WordPress\n# Las directivas (l\u00edneas) entre \u00abBEGIN WordPress\u00bb y \u00abEND WordPress\u00bb son\n# generadas din\u00e1micamente y solo deber\u00edan ser modificadas mediante filtros de WordPress.\n# Cualquier cambio en las directivas que hay entre esos marcadores ser\u00e1n sobrescritas.\n&lt;IfModule mod_rewrite.c&gt;\nRewriteEngine On\nRewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]\nRewriteBase \/\nRewriteRule ^index\\.php$ - [L]\nRewriteCond %{REQUEST_FILENAME} !-f\nRewriteCond %{REQUEST_FILENAME} !-d\nRewriteRule . \/index.php [L]\n&lt;\/IfModule&gt;\n\n# END WordPress\n#RewriteCond %{HTTP_HOST} ^andinalicores\\.com\\.ec$ [OR]\n#RewriteCond %{HTTP_HOST} ^www\\.andinalicores\\.com\\.ec$\n#RewriteRule ^\/?$ &quot;https\\:\\\/\\\/andinalicores\\.com\\.ec\\\/b2b&quot; [R=301,L]\n\n# BEGIN cPanel-generated php ini directives, do not edit\n# Manual editing of this file may result in unexpected behavior.\n# To make changes to this file, use the cPanel MultiPHP INI Editor (Home &gt;&gt; Software &gt;&gt; MultiPHP INI Editor)\n# For more information, read our documentation (https:\/\/go.cpanel.net\/EA4ModifyINI)\n&lt;IfModule php7_module&gt;\n#   php_flag display_errors Off\n#   php_value max_execution_time 180\n#   php_value max_input_time 60\n#   php_value max_input_vars 1000\n#   php_value memory_limit 500M\n#   php_value post_max_size 516M\n#   php_value session.gc_maxlifetime 1440\n#   php_value session.save_path &quot;\/var\/cpanel\/php\/sessions\/ea-php72&quot;\n#   php_value upload_max_filesize 512M\n#   php_flag zlib.output_compression Off\n&lt;\/IfModule&gt;\n&lt;IfModule lsapi_module&gt;\n#   php_flag display_errors Off\n#   php_value max_execution_time 180\n#   php_value max_input_time 60\n#   php_value max_input_vars 1000\n#   php_value memory_limit 500M\n#   php_value post_max_size 516M\n#   php_value session.gc_maxlifetime 1440\n#   php_value session.save_path &quot;\/var\/cpanel\/php\/sessions\/ea-php72&quot;\n#   php_value upload_max_filesize 512M\n#   php_flag zlib.output_compression Off\n&lt;\/IfModule&gt;\n# END cPanel-generated php ini directives, do not edit\n\n# BEGIN ShortPixelWebp\n# Las directivas (l\u00edneas) entre \u00abBEGIN ShortPixelWebp\u00bb y \u00abEND ShortPixelWebp\u00bb son\n# generadas din\u00e1micamente y solo deber\u00edan ser modificadas mediante filtros de WordPress.\n# Cualquier cambio en las directivas que hay entre esos marcadores ser\u00e1n sobrescritas.\n\n# END ShortPixelWebp\n\n# php -- BEGIN cPanel-generated handler, do not edit\n# Set the \u201cea-php74\u201d package as the default \u201cPHP\u201d programming language.\n&lt;IfModule mime_module&gt;\n  AddHandler application\/x-httpd-ea-php74___lsphp .php .php7 .phtml\n&lt;\/IfModule&gt;\n# php -- END cPanel-generated handler, do not edit\n<\/pre><\/div><div class=\"col col-2\"><b>New .htaccess<\/b><pre>#This Apache config file was created by Duplicator Installer on 2022-05-24 18:03:07.\n#The original can be found in archived file with the name .htaccess__[HASH]\n\r\n# BEGIN WordPress\r\n&lt;IfModule mod_rewrite.c&gt;\r\nRewriteEngine On\r\nRewriteBase \/\r\nRewriteRule ^index\\.php$ - [L]\r\nRewriteCond %{REQUEST_FILENAME} !-f\r\nRewriteCond %{REQUEST_FILENAME} !-d\r\nRewriteRule . \/index.php [L]\r\n&lt;\/IfModule&gt;\r\n# END WordPress<\/pre><\/div><\/div><\/div>                <button class=\"close-button\" title=\"Close\" ><i class=\"fa fa-2x fa-times\"><\/i><\/button>\r\n            <\/div>\r\n        <\/div>\r\n        ",
+            "sections": [
+                "changes"
+            ],
+            "faqLink": null,
+            "priority": 10,
+            "open": true,
+            "longMsgMode": "html"
+        }
+    }
+}

@@ -1,0 +1,639 @@
+# Translation of Plugins - Stock Locations for WooCommerce - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Stock Locations for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-03-01 13:59:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Stock Locations for WooCommerce - Stable (latest release)\n"
+
+#: views/taxonomy-fields-edit.php:71 views/taxonomy-fields-edit.php:84
+#: views/taxonomy-fields-edit.php:112
+msgid "Optional"
+msgstr "Opcional"
+
+#: views/taxonomy-fields-edit.php:109
+msgid "Opening Timings"
+msgstr "Horarios de apertura"
+
+#: views/taxonomy-fields-edit.php:68
+msgid "Location Address"
+msgstr "Dirección de ubicación"
+
+#: src/classes/class-slw-order-item.php:493
+msgid "for this order"
+msgstr "para este pedido"
+
+#: src/classes/class-slw-order-item.php:224
+#: src/classes/class-slw-order-item.php:490
+msgid "in this order"
+msgstr "en este pedido"
+
+#: src/classes/class-slw-order-item.php:224
+#: src/classes/class-slw-order-item.php:490
+msgid "Please fill the remaining stock."
+msgstr "Por favor, rellena las existencias restantes."
+
+#: src/classes/class-slw-order-item.php:493
+msgid "Stock in locations updated successfully"
+msgstr "Las existencias en las ubicaciones se han actualizado correctamente"
+
+#: src/classes/class-slw-settings.php:672
+msgid "Click here to visit"
+msgstr "Haz clic aquí para visitar"
+
+#: src/classes/class-slw-stock-locations-tab.php:230
+msgid "Stock Qty."
+msgstr "Cantidad de existencias"
+
+#: src/classes/class-slw-stock-locations-tab.php:241
+msgid "Stock Price"
+msgstr "Precio de las existencias"
+
+#: src/classes/class-slw-stock-locations-tab.php:242
+msgid "Enter the price for the stock from this location."
+msgstr "Introduce el precio de las existencias de esta ubicación."
+
+#: views/settings-help.php:8
+msgid "Need Urgent Help?"
+msgstr "¿Necesitas ayuda urgente?"
+
+#: views/settings-widgets.php:15
+msgid "This section is available in premium version."
+msgstr "Esta sección está disponible en la versión Premium."
+
+#: src/classes/class-slw-settings.php:68
+msgid "Widgets"
+msgstr "Widgets"
+
+#: src/classes/class-slw-settings.php:699 views/settings-widgets.php:15
+msgid "Go Premium"
+msgstr "Hazte premium"
+
+#: src/classes/class-slw-settings.php:177
+msgid "Show location stock quantity with a postfix e.g. 20+"
+msgstr "Muestra la cantidad de existencias de la ubicación con un sufijo, p.ej., 20+"
+
+#: src/classes/class-slw-settings.php:664
+#: src/classes/class-slw-settings.php:712
+msgid "Click here to watch video tutorial"
+msgstr "Haz clic aquí para ver el tutorial en vídeo"
+
+#: src/classes/class-slw-settings.php:518
+msgid "Enter a maximum number to show + sign beyond"
+msgstr "Introduce el número máximo para mostrar el signo «+» a continuación"
+
+#: src/classes/class-slw-settings.php:665
+#: src/classes/class-slw-settings.php:713
+msgid "Click here to preview illustration/screenshot"
+msgstr "Haz clic aquí para previsualizar la ilustración/captura de pantalla"
+
+#: src/classes/class-slw-settings.php:69
+msgid "Logs"
+msgstr "Registros"
+
+#: src/classes/class-slw-settings.php:72
+msgid "Help"
+msgstr "Ayuda"
+
+#: src/helpers/helper-slw-frontend.php:44
+msgid "Stock value updated. Please refresh this page."
+msgstr "Actualizado el valor de las existencias. Por favor, actualiza esta página."
+
+#: inc/functions.php:219
+msgid "Sorry, your nonce did not verify."
+msgstr "Lo siento, tu nonce no se ha verificado."
+
+#: views/settings-api.php:10 views/settings-help.php:7
+msgid "Contact Developer"
+msgstr "Contacta con el desarrollador"
+
+#: views/settings-logger.php:32
+msgid "Clear Debug Log"
+msgstr "Vaciar el registro de depuración"
+
+#: views/settings-logger.php:58
+msgid "Nothing logged yet."
+msgstr "Todavía no se ha registrado nada."
+
+#: views/settings-help.php:6
+msgid "Open a Ticket on Support Forums"
+msgstr "Abrir un tique en los foros de soporte"
+
+#: views/settings-sponsor.php:22
+msgid "Create a Ticket"
+msgstr "Crear un tique"
+
+#. Author of the plugin
+msgid "Fahad Mahmood & Alexandre Faustino"
+msgstr "Fahad Mahmood & Alexandre Faustino"
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/fahadmahmood/#content-plugins"
+msgstr "https://profiles.wordpress.org/fahadmahmood/#content-plugins"
+
+#: src/classes/class-slw-stock-locations-tab.php:114
+msgid "Stock locations are locked for editing because WPML will copy its value from the original language."
+msgstr "Las localizaciones de existencias están bloqueadas para su edición porque WPML copiará su valor del idioma original."
+
+#: src/classes/class-slw-location-taxonomy.php:322
+msgid "Something went wrong removing the default location. Please check WooCommerce logs."
+msgstr "Algo ha salido mal al eliminar la ubicación por defecto. Por favor, comprueba los registros de WooCommerce."
+
+#: src/classes/class-slw-location-taxonomy.php:320
+msgid "Product default location removed!"
+msgstr "¡Se ha eliminado la ubicación por defecto del producto!"
+
+#: src/classes/class-slw-location-taxonomy.php:304
+msgid "Something went wrong saving the default location. Please check WooCommerce logs."
+msgstr "Algo ha salido mal al guardar la ubicación por defecto. Por favor, comprueba los registros de WooCommerce."
+
+#: src/classes/class-slw-location-taxonomy.php:302
+msgid "Product default location saved!"
+msgstr "¡La ubicación por defecto del producto se ha guardado!"
+
+#: src/classes/class-slw-location-taxonomy.php:275
+msgid "Remove"
+msgstr "Quitar"
+
+#: src/classes/class-slw-location-taxonomy.php:273
+msgid "Make default"
+msgstr "Hacer por defecto"
+
+#: src/classes/class-slw-settings.php:493
+msgid "This option will lock location selectors in products and cart to the default location."
+msgstr "Esta opción bloqueará los selectores de ubicación en los productos y el carrito a la ubicación por defecto."
+
+#: src/classes/class-slw-settings.php:479
+msgid "This option will set the default location in product pages in frontend. The default is set under the product edit page by clicking <code>Make Default</code>."
+msgstr "Esta opción establecerá la ubicación por defecto en las páginas de productos en la vista pública. El valor por defecto se establece en la página de edición del producto haciendo clic en <code>Hacer por defecto</code>."
+
+#: src/classes/class-slw-settings.php:195
+msgid "Lock frontend location to default"
+msgstr "Bloquear la ubicación de la vista pública por defecto"
+
+#: src/classes/class-slw-settings.php:186
+msgid "Enable default location in frontend selection"
+msgstr "Activar la ubicación por defecto en la selección de la vista pública"
+
+#: views/settings-stock-locations.php:33
+msgid "No locations found in your store."
+msgstr "No se han encontrado ubicaciones en tu tienda."
+
+#: views/settings-stock-locations.php:15
+msgid "ID"
+msgstr "ID"
+
+#: views/settings-stock-locations.php:11
+msgid "Add new"
+msgstr "Añadir nuevo"
+
+#: views/addons/import-export.php:15
+msgid "Installed"
+msgstr "Instalado"
+
+#: views/addons/import-export.php:12
+msgid "Buy now"
+msgstr "Comprar ahora"
+
+#: views/addons/import-export.php:33
+msgid "Last version"
+msgstr "Última versión"
+
+#: views/settings-sponsor.php:22
+msgid "Having problems with add-ons or need updated versions?"
+msgstr "¿Tienes problemas con las extensiones o necesitas versiones actualizadas?"
+
+#: views/settings-sponsor.php:12
+msgid "Add-ons are sent by email to you after buying process completed. This is a manual procedure, so please be patient!"
+msgstr "Las extensiones se envían por correo electrónico una vez completado el proceso de compra. Este es un procedimiento manual, así que por favor, ¡se paciente!"
+
+#: views/settings-sponsor.php:10
+msgid "Available add-ons"
+msgstr "Extensiones disponibles"
+
+#: views/addons/import-export.php:43
+msgid "Installed version"
+msgstr "Versión instalada"
+
+#: views/addons/import-export.php:27
+msgid "By Alexandre Faustino"
+msgstr "Por Alexandre Faustino"
+
+#: views/addons/import-export.php:21
+msgid "Import and export stock from locations keeping also your WooCommerce stock up-to-date."
+msgstr "Importa y exporta las existencias desde ubicaciones manteniendo también las existencias de tu WooCommerce actualizadas."
+
+#: views/addons/import-export.php:5
+msgid "Import/Export add-on"
+msgstr "extensión para importar y exportar"
+
+#: src/classes/class-slw-settings.php:465
+msgid "It will affect location selectors on product and cart pages."
+msgstr "Afectará a los selectores de ubicación en las páginas de productos y el carrito."
+
+#: src/classes/class-slw-settings.php:204
+msgid "Show stock quantities in location selection in frontend"
+msgstr "Mostrar las cantidades de existencias en la selección de ubicaciones en la vista pública"
+
+#: views/settings-sponsor.php:5 views/settings-sponsor.php:6
+msgid "Donate"
+msgstr "Donar"
+
+#: views/settings-sponsor.php:6
+msgid "Would like to sponsor the development of new features and keep me motivated?"
+msgstr "¿Quieres patrocinar el desarrollo de nuevas característica y mantenerme motivado?"
+
+#: src/classes/frontend/class-slw-frontend-cart.php:123
+msgid "Nearest Location"
+msgstr "Ubicación más cercana"
+
+#: src/classes/class-slw-settings.php:426
+msgid "Make location selection in cart required."
+msgstr "Hacer obligatoria la selección de ubicación en el carrito."
+
+#: src/classes/class-slw-order-item.php:168
+msgid "The stock in the location %1$s was restored in %2$d for the product %3$s"
+msgstr "Las existencias en la ubicación %1$s se han restablecido en %2$d para el producto %3$s"
+
+#. Description of the plugin
+msgid "This plugin will help you to manage WooCommerce Products stocks through locations."
+msgstr "Este plugin te ayudará a gestionar las ubicaciones de lanzamiento de los productos de WooCommerce."
+
+#: src/classes/frontend/class-slw-frontend-product.php:175
+msgid "No locations found for this product/variant!"
+msgstr "¡No se han encontrado ubicaciones para este producto o variante!"
+
+#: src/helpers/helper-slw-frontend.php:78
+msgid "On backorder"
+msgstr "Se puede reservar"
+
+#: views/taxonomy-fields-edit.php:49 views/taxonomy-fields-new.php:29
+msgid "Location priority"
+msgstr "Prioridad de ubicación"
+
+#: src/classes/class-slw-settings.php:141
+msgid "Show location selection in cart"
+msgstr "Mostrar la selección de ubicación en el carrito"
+
+#: src/classes/class-slw-settings.php:168
+msgid "Show location selection in product page"
+msgstr "Mostrar la selección de ubicación en la página del producto"
+
+#: src/classes/class-slw-settings.php:248
+msgid "Enable location email notifications"
+msgstr "Activar los avisos de ubicación por correo electrónico"
+
+#: src/classes/class-slw-settings.php:257
+msgid "Send copy of WC New Order email to location address"
+msgstr "Enviar una copia del correo electrónico de nuevo pedido de WC a la dirección de ubicación"
+
+#: src/classes/class-slw-settings.php:570
+msgid "Auto order allocation must be enabled in the location."
+msgstr "La asignación automática de pedidos debe estar activada en la ubicación."
+
+#: src/helpers/helper-slw-mail.php:34
+msgid "This is an automatically generated notification informing that the quantity of <strong>%1$d</strong> was allocated for the item <strong>%2$s</strong> with the ID <strong>%3$d</strong>."
+msgstr "Este es un aviso generado automáticamente que informa que la cantidad de <strong>%1$d</strong> se ha asignado para el artículo <strong>%2$s</strong> con el ID <strong>%3$d</strong>."
+
+#: views/taxonomy-fields-new.php:38
+msgid "Email address for notifications when a customer buys from this location.<br>Works only if auto order allocation is enabled for this location."
+msgstr "Dirección de correo electrónico para los avisos cuando un cliente compra desde esta ubicación.<br>Solo funciona si la asignación automática de pedidos está activada para esta ubicación."
+
+#: views/taxonomy-fields-edit.php:62
+msgid "Email address for notifications when a customer buys from this location. Works only if auto order allocation is enabled for this location."
+msgstr "Dirección de correo electrónico para los avisos cuando un cliente compra desde esta ubicación. Solo funciona si la asignación automática de pedidos está activada para esta ubicación."
+
+#: views/taxonomy-fields-edit.php:52 views/taxonomy-fields-new.php:31
+msgid "This is the order in which stock is auto allocated if enabled."
+msgstr "Este es el pedido al que las existencias se asignan automáticamente si está activado."
+
+#: src/helpers/helper-slw-mail.php:33
+msgid "Stock allocated in"
+msgstr "Existencias asignadas en"
+
+#: views/taxonomy-fields-edit.php:59 views/taxonomy-fields-new.php:36
+msgid "Location email"
+msgstr "Correo electrónico de ubicación"
+
+#: src/classes/class-slw-settings.php:239
+msgid "Include location data in formatted item meta"
+msgstr "Incluir datos de ubicación en la meta del elemento formateado"
+
+#: src/classes/class-slw-settings.php:557
+msgid "This special meta can be used by third party plugins to show the location name and quantity subtracted."
+msgstr "Este meta especial puede ser utilizado por plugins de terceros para mostrar el nombre de la ubicación y la cantidad restada."
+
+#: src/classes/class-slw-shortcodes.php:176
+msgid "Not available"
+msgstr "No disponible"
+
+#: src/classes/class-slw-settings.php:543
+msgid "Runs every day at midnight."
+msgstr "Funciona todos los días a medianoche."
+
+#: src/classes/class-slw-settings.php:230
+msgid "Auto delete unused product locations meta"
+msgstr "Eliminar automáticamente los metadatos no usados de ubicaciones de productos"
+
+#: src/classes/class-slw-settings.php:159
+msgid "Different location per cart item"
+msgstr "Ubicación diferente por artículo del carrito"
+
+#: src/classes/class-slw-settings.php:616
+msgid "No"
+msgstr "No"
+
+#: src/classes/class-slw-settings.php:612
+msgid "Select..."
+msgstr "Seleccionar…"
+
+#: src/classes/class-slw-settings.php:49
+msgid "SLW Settings"
+msgstr "Ajustes de SLW"
+
+#: views/taxonomy-fields-edit.php:22 views/taxonomy-fields-new.php:20
+msgid "Auto order allocate"
+msgstr "Asignación automática de pedidos"
+
+#: src/classes/class-slw-settings.php:66 src/classes/class-slw-settings.php:695
+msgid "Settings"
+msgstr "Ajustes"
+
+#: src/classes/class-slw-settings.php:614
+msgid "Yes"
+msgstr "Sí"
+
+#: src/classes/class-slw-cart.php:57
+#: src/classes/frontend/class-slw-frontend-cart.php:136
+#: src/classes/frontend/class-slw-frontend-cart.php:139
+#: src/classes/frontend/class-slw-frontend-product.php:82
+#: src/classes/frontend/class-slw-frontend-product.php:84
+#: src/classes/frontend/class-slw-frontend-product.php:140
+#: src/classes/frontend/class-slw-frontend-product.php:142
+msgid "Select location..."
+msgstr "Seleccionar ubicación..."
+
+#: src/classes/class-slw-order-item.php:394
+msgid "Client choosed: "
+msgstr "Cliente elegido: "
+
+#: src/classes/class-slw-settings.php:382
+msgid "If auto order allocation is enabled for the selected location in the cart, this setting will be ignored for stock reduction."
+msgstr "Si la asignación automática de pedidos está activada para la ubicación seleccionada en el carrito, este ajuste se ignorará para la reducción de existencias."
+
+#: views/taxonomy-fields-new.php:25
+msgid "Should stock be auto allocated to stock locations when an order is placed?<br>See priority field below to set priority."
+msgstr "¿Deben asignarse automáticamente las existencias a los almacenes cuando se realiza un pedido?<br>Consulta el campo de prioridad a continuación para establecer la prioridad."
+
+#: views/taxonomy-fields-new.php:16
+msgid "Should backorder stock be allocated to this location? Only used if auto order allocate is enabled. Please ensure only one backorder location is set."
+msgstr "¿Deben asignarse las existencias de pedidos pendientes a esta ubicación? Solo se usa si la asignación automática de pedidos está activada. Por favor, asegúrate de que solo se establece una ubicación de pedidos pendientes."
+
+#: views/taxonomy-fields-edit.php:35 views/taxonomy-fields-new.php:11
+msgid "Backorder location"
+msgstr "Ubicación de los pedidos pendientes"
+
+#: views/taxonomy-fields-edit.php:17 views/taxonomy-fields-new.php:7
+msgid "Should location be selected by default for new products?"
+msgstr "¿Debe seleccionarse la ubicación por defecto para los nuevos productos?"
+
+#: views/taxonomy-fields-edit.php:11 views/taxonomy-fields-new.php:2
+msgid "Default for new products"
+msgstr "Por defecto para los nuevos productos"
+
+#: src/classes/class-slw-shortcodes.php:192
+msgid "No locations found for this product!"
+msgstr "¡No se han encontrado ubicaciones para este producto!"
+
+#: src/classes/class-slw-shortcodes.php:183
+#: src/helpers/helper-slw-frontend.php:80
+#: stock-locations-for-woocommerce.php:235
+msgid "Out of stock"
+msgstr "Sin existencias"
+
+#: src/classes/class-slw-shortcodes.php:181
+#: src/helpers/helper-slw-frontend.php:88
+msgid "In stock"
+msgstr "Hay existencias"
+
+#: src/classes/class-slw-product-listing.php:50
+msgid "Stock at locations"
+msgstr "Existencias en las ubicaciones"
+
+#: app/traits/trait-slw-barcodes-tab.php:185
+#: src/classes/class-slw-barcodes-tab.php:189
+msgid "Amazon Standard Identification Numbers (ASINs) are unique blocks of 10 letters and/or numbers that identify items."
+msgstr "Los números de identificación estándar de Amazon (ASIN) son bloques únicos de 10 letras o números que identifican los artículos."
+
+#: app/traits/trait-slw-barcodes-tab.php:175
+#: src/classes/class-slw-barcodes-tab.php:179
+msgid "The European Article Number (EAN) is a barcode standard, a 12- or 13-digit product identification code."
+msgstr "El European Article Number (EAN) es un código de barras estándar, un código de identificación de producto de 12 o 13 dígitos."
+
+#: app/traits/trait-slw-barcodes-tab.php:165
+#: src/classes/class-slw-barcodes-tab.php:169
+msgid "Universal Product Code (UPC) is a 12-digit bar code used extensively for retail packaging in United States."
+msgstr "El código de producto universal (UPC) es un código de barras de 12 dígitos que se utiliza ampliamente para el empaquetado minorista en Estados Unidos."
+
+#: app/traits/trait-slw-barcodes-tab.php:156
+#: src/classes/class-slw-barcodes-tab.php:160
+msgid "The International Standard Book Number (ISBN) is a unique commercial book identifier barcode."
+msgstr "El International Standard Book Number (ISBN) es un código de barras identificador de libro comercial único."
+
+#: app/traits/trait-slw-barcodes-tab.php:37
+#: src/classes/class-slw-barcodes-tab.php:47
+msgid "Barcodes"
+msgstr "Código de barras"
+
+#: app/traits/trait-slw-stock-locations-tab.php:310
+#: src/classes/class-slw-stock-locations-tab.php:370
+msgid "An error occurred. Some field was empty."
+msgstr "Ocurrió un error. Algún campo estaba vacío."
+
+#: app/traits/trait-slw-shortcodes.php:65
+msgid "Barcode type not found!"
+msgstr "¡Tipo de código de barras no encontrado!"
+
+#: app/traits/trait-slw-product-taxonomy.php:58
+#: src/classes/class-slw-location-taxonomy.php:80
+#: src/classes/class-slw-product-taxonomy.php:69
+msgid "Parent Item:"
+msgstr "Artículo superior:"
+
+#: app/traits/trait-slw-product-taxonomy.php:53
+#: app/traits/trait-slw-product-taxonomy.php:54
+#: src/classes/class-slw-location-taxonomy.php:75
+#: src/classes/class-slw-location-taxonomy.php:76
+#: src/classes/class-slw-order-item.php:701
+#: src/classes/class-slw-order-item.php:728
+#: src/classes/class-slw-product-taxonomy.php:64
+#: src/classes/class-slw-product-taxonomy.php:65
+#: src/classes/frontend/class-slw-frontend-cart.php:97
+#: views/settings-stock-locations.php:16
+msgid "Location"
+msgstr "Ubicación"
+
+#: app/traits/trait-slw-product-listing.php:68
+#: src/classes/class-slw-product-listing.php:82
+msgid "Show all %s"
+msgstr "Mostrar todo %s"
+
+#. Plugin Name of the plugin
+msgid "Stock Locations for WooCommerce"
+msgstr "Stock Locations for WooCommerce"
+
+#: app/traits/trait-slw-product-taxonomy.php:59
+#: src/classes/class-slw-location-taxonomy.php:81
+#: src/classes/class-slw-product-taxonomy.php:70
+msgid "New Item Name"
+msgstr "Nuevo nombre de artículo"
+
+#: app/traits/trait-slw-product-taxonomy.php:57
+#: src/classes/class-slw-location-taxonomy.php:79
+#: src/classes/class-slw-product-taxonomy.php:68
+msgid "Parent Item"
+msgstr "Artículo principal"
+
+#: stock-locations-for-woocommerce.php:349
+msgid "Stock Locations for WooCommerce requires WooCommerce to be activaded. Please active WooCommerce plugin first."
+msgstr "Stock Locations for WooCommerce necesita que WooCommerce esté activado. Por favor, activa primero el plugin de WooCommerce."
+
+#: app/traits/trait-slw-stock-locations-tab.php:190
+#: src/classes/class-slw-stock-locations-tab.php:231
+msgid "Enter the stock amount for this location."
+msgstr "Introduce el importe de las existencias para esta ubicación."
+
+#: app/traits/trait-slw-stock-locations-tab.php:170
+#: src/classes/class-slw-stock-locations-tab.php:207
+msgid "You need to add a stock location to this product."
+msgstr "Es necesario añadir una ubicación de existencias para este producto."
+
+#: app/traits/trait-slw-stock-locations-tab.php:140
+#: src/classes/class-slw-stock-locations-tab.php:177
+msgid "To be able to manage stock locations in <b>%1$s</b>, please add a <b>price</b> and activate the <b>Stock Management</b> under the variation settings."
+msgstr "Para poder gestionar las ubicaciones de las existencias en <b>%1$s</b>, por favor, añade un <b>precio</b> y activa <b>Stock Management</b> en los ajustes de las variaciones."
+
+#: app/traits/trait-slw-stock-locations-tab.php:120
+#: src/classes/class-slw-stock-locations-tab.php:153
+msgid "To be able to manage stock locations for variations please create them and add a price to each one."
+msgstr "Para poder gestionar las ubicaciones de existencias de las variaciones, por favor, créalas y añade un precio a cada una de ellas."
+
+#: app/traits/trait-slw-stock-locations-tab.php:113
+#: src/classes/class-slw-stock-locations-tab.php:146
+msgid "The total stock doesn't match the sum of the locations stock. Please update this product to fix it."
+msgstr "Las existencias totales no coinciden con la suma de las existencias en las ubicaciones. Por favor, actualiza este producto para solucionarlo."
+
+#: app/traits/trait-slw-stock-locations-tab.php:101
+#: app/traits/trait-slw-stock-locations-tab.php:159
+#: src/classes/class-slw-stock-locations-tab.php:134
+#: src/classes/class-slw-stock-locations-tab.php:196
+msgid "Total Stock:"
+msgstr "Existencias totales:"
+
+#: app/traits/trait-slw-stock-locations-tab.php:84
+#: src/classes/class-slw-stock-locations-tab.php:108
+msgid "To be able to manage stock locations, please activate the <b>Stock Management</b> option under the <b>Inventory Tab</b>, and add a location to this product."
+msgstr "Para poder gestionar las ubicaciones de las existencias, activa la opción de <b>gestión de existencias</b> en la <b>pestaña de existencias</b> y añade una ubicación a este producto."
+
+#: app/traits/trait-slw-order-item.php:339
+msgid "Stock in locations updated successfully!"
+msgstr "¡Las existencias en las ubicaciones se han actualizado correctamente!"
+
+#: app/traits/trait-slw-order-item.php:306
+#: src/helpers/helper-slw-order-item.php:100
+msgid "The stock in the location %1$s was updated in -%2$d for the product %3$s"
+msgstr "Las existencias en la ubicación %1$s se han actualizado en -%2$d para el producto %3$s"
+
+#: app/traits/trait-slw-order-item.php:208
+#: src/classes/class-slw-order-item.php:407
+msgid "This product/variation don't have stock management activated."
+msgstr "Este producto o variación no tiene activada la gestión de existencias."
+
+#: app/traits/trait-slw-order-item.php:181
+#: src/classes/class-slw-order-item.php:369
+msgid "Enter the stock amount you want to subtract from this location."
+msgstr "Introduce la cantidad de existencias que quieres restar de esta ubicación."
+
+#: app/traits/trait-slw-order-item.php:178
+#: src/classes/class-slw-order-item.php:366
+msgid "This location doesn't have stock and can't be subtracted."
+msgstr "Esta ubicación no tiene existencias y no puede ser sustraída."
+
+#: app/traits/trait-slw-order-item.php:98
+#: app/traits/trait-slw-order-item.php:116
+#: src/classes/class-slw-order-item.php:272
+#: src/classes/class-slw-order-item.php:290
+msgid "To be able to manage the stock for this product, please add it to a <b>Stock location</b>!"
+msgstr "Para poder gestionar las existencias de este producto, por favor, ¡añádelo a una <b>ubicación de existencias</b>!"
+
+#: app/traits/trait-slw-order-item.php:67
+#: app/traits/trait-slw-order-item.php:337
+msgid "Partial or total stock in locations is missing in this order. Please fill the remaining stock."
+msgstr "En este pedido faltan existencias parciales o totales en las ubicaciones. Por favor, completa las existencias restantes."
+
+#: app/traits/trait-slw-order-item.php:49
+#: app/traits/trait-slw-stock-locations-tab.php:39
+#: src/classes/class-slw-order-item.php:208
+#: src/classes/class-slw-settings.php:67
+#: src/classes/class-slw-stock-locations-tab.php:58
+msgid "Stock Locations"
+msgstr "Ubicaciones de existencias"
+
+#: app/traits/trait-slw-product-taxonomy.php:66
+#: src/classes/class-slw-location-taxonomy.php:88
+#: src/classes/class-slw-product-taxonomy.php:77
+msgid "Choose from the most used Items"
+msgstr "Elige entre los artículos más usados"
+
+#: app/traits/trait-slw-product-taxonomy.php:65
+#: src/classes/class-slw-location-taxonomy.php:87
+#: src/classes/class-slw-product-taxonomy.php:76
+msgid "Add or remove Items"
+msgstr "Añadir o eliminar artículos"
+
+#: app/traits/trait-slw-product-taxonomy.php:64
+#: src/classes/class-slw-location-taxonomy.php:86
+#: src/classes/class-slw-product-taxonomy.php:75
+msgid "Search Items"
+msgstr "Buscar artículos"
+
+#: app/traits/trait-slw-product-taxonomy.php:63
+#: src/classes/class-slw-location-taxonomy.php:85
+#: src/classes/class-slw-product-taxonomy.php:74
+msgid "Separate Item with commas"
+msgstr "Separar artículos por coma"
+
+#: app/traits/trait-slw-product-taxonomy.php:62
+#: src/classes/class-slw-location-taxonomy.php:84
+#: src/classes/class-slw-product-taxonomy.php:73
+msgid "Update Item"
+msgstr "Actualizar artículo"
+
+#: app/traits/trait-slw-product-taxonomy.php:61
+#: src/classes/class-slw-location-taxonomy.php:83
+#: src/classes/class-slw-product-taxonomy.php:72
+msgid "Edit Item"
+msgstr "Editar artículo"
+
+#: app/traits/trait-slw-product-taxonomy.php:60
+#: src/classes/class-slw-location-taxonomy.php:82
+#: src/classes/class-slw-product-taxonomy.php:71
+msgid "Add New Item"
+msgstr "Añadir un nuevo artículo"
+
+#: app/traits/trait-slw-product-taxonomy.php:56
+#: src/classes/class-slw-location-taxonomy.php:78
+#: src/classes/class-slw-product-taxonomy.php:67
+msgid "All Items"
+msgstr "Todos los artículos"
+
+#: app/traits/trait-slw-product-taxonomy.php:55
+#: src/classes/class-slw-location-taxonomy.php:77
+#: src/classes/class-slw-product-taxonomy.php:66
+msgid "Stock locations"
+msgstr "Ubicaciones de las existencias"

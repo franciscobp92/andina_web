@@ -1,0 +1,277 @@
+# Translation of Plugins - One Click Order Re-Order - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - One Click Order Re-Order - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-01-17 10:02:56+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - One Click Order Re-Order - Development (trunk)\n"
+
+#: includes/ced-click-n-go-class.php:73 includes/ced-click-n-go-class.php:78
+msgid "Sorry,an error occured.Please try again."
+msgstr "Lo siento, ha ocurrido un error. Por favor, inténtalo de nuevo."
+
+#: includes/ced-click-n-go-class.php:69
+msgid "Soon you will receive the more details of this extension on the given mail."
+msgstr "Pronto recibirás más detalles de esta extensión en el correo que has facilitado."
+
+#: includes/class-basket-order.php:1112
+msgid "No attachment info found"
+msgstr "No se encontró ninguna información del adjunto"
+
+#: includes/class-basket-order.php:1075
+msgid "No items found in your basket."
+msgstr "No se han encontrado artículos en tu cesta."
+
+#: includes/class-basket-order.php:1016
+msgid "Sorry please login first."
+msgstr "Lo siento, por favor, accede primero."
+
+#: includes/class-basket-order.php:1015
+msgid "Please login first."
+msgstr "Por favor, accede primero."
+
+#: includes/class-basket-order.php:1009 includes/class-basket-order.php:1010
+#: includes/class-basket-order.php:1106
+msgid "Ajax nonce couldn't match."
+msgstr "El nonce de Ajax no ha coincidido."
+
+#: includes/class-basket-order.php:998
+msgid "Successfully added to cart."
+msgstr "Añadido correctamente al carrito."
+
+#: includes/class-basket-order.php:923 includes/class-basket-order.php:1023
+#: includes/class-basket-order.php:1024
+msgid "No items found in you basket."
+msgstr "No se han encontrado artículos en tu cesta."
+
+#: includes/class-basket-order.php:901
+msgid "Shopping Basket"
+msgstr "Cesta de compras"
+
+#: includes/class-basket-order.php:784 includes/class-basket-order.php:785
+msgid "Couldn't removed from basket."
+msgstr "No se ha podido eliminar de la cesta."
+
+#: includes/class-basket-order.php:781
+msgid "Removed from basket."
+msgstr "Eliminado de la cesta."
+
+#: includes/class-basket-order.php:734 includes/class-basket-order.php:735
+msgid "Couldn't added to basket."
+msgstr "No se ha podido añadir a la cesta."
+
+#: includes/class-basket-order.php:731
+msgid "Added to basket."
+msgstr "Añadido a la cesta."
+
+#: includes/class-basket-order.php:447
+msgid "It seems you didn't change anything or something went wrong, please try again."
+msgstr "Parece que no has cambiado nada o algo ha ido mal. Por favor, inténtalo de nuevo."
+
+#: includes/class-basket-order.php:444
+msgid "Settings successfully saved."
+msgstr "Ajustes guardados correctamente."
+
+#: includes/class-basket-order.php:384
+msgid "Select pages to show the basket."
+msgstr "Selecciona las páginas para mostrar la cesta."
+
+#: includes/class-basket-order.php:378
+msgid "Choose pages to show the basket icon:"
+msgstr "Elige las páginas para mostrar el icono de la cesta:"
+
+#: includes/class-basket-order.php:353
+msgid "Select user roles to show them basket feature."
+msgstr "Selecciona los perfiles de usuario para mostrarles la característica de la cesta."
+
+#: includes/class-basket-order.php:345
+msgid "Enable basket feature for:"
+msgstr "Activa la característica de la cesta para:"
+
+#: includes/class-basket-order.php:336
+msgid "Upload"
+msgstr "Subir"
+
+#: includes/class-basket-order.php:332
+msgid "Basket icon"
+msgstr "Icono de la cesta"
+
+#: includes/class-basket-order.php:319
+msgid "Upload an icon image for basket icon:"
+msgstr "Sube una imagen de icono para el icono de la cesta:"
+
+#: includes/class-basket-order.php:309
+msgid "Basket remove button text:"
+msgstr "Texto del botón de eliminar de la cesta:"
+
+#: includes/class-basket-order.php:299
+msgid "Basket add button text:"
+msgstr "Texto del botón de añadir a la cesta:"
+
+#: includes/class-basket-order.php:282
+msgid "Enable/Disable Basket:"
+msgstr "Activar/desactivar la cesta:"
+
+#: includes/class-basket-order.php:275 includes/class-basket-order.php:292
+msgid "Disable"
+msgstr "Desactivar"
+
+#: includes/class-basket-order.php:271 includes/class-basket-order.php:288
+msgid "Enable"
+msgstr "Activar"
+
+#: includes/class-basket-order.php:265
+msgid "Enable/Disable Place Same Order Button:"
+msgstr "Activar/desactivar el botón para realizar el mismo pedido:"
+
+#: includes/class-basket-order.php:152
+msgid "Sorry to say, you're not allowed to see this page."
+msgstr "Siento decirlo, pero no tienes permisos para ver esta página."
+
+#: includes/class-basket-order.php:148
+msgid "One Click Order Reorder Settings"
+msgstr "Ajustes de One Click Order Reorder"
+
+#: includes/class-basket-order.php:144
+msgid "Dismiss this notice."
+msgstr "Descartar este aviso."
+
+#: includes/class-basket-order.php:142
+msgid "Please fill all the fields."
+msgstr "Por favor, rellena todos los campos."
+
+#: includes/class-basket-order.php:28
+msgid "My Account"
+msgstr "Mi cuenta"
+
+#: includes/class-basket-order.php:27
+msgid "Cart"
+msgstr "Carrito"
+
+#: includes/class-basket-order.php:26
+msgid "Product Detail"
+msgstr "Detalles del producto"
+
+#: includes/class-basket-order.php:25
+msgid "Shop"
+msgstr "Tienda"
+
+#: includes/ced-click-n-go-class.php:206 includes/class-basket-order.php:1076
+msgid "No items found."
+msgstr "No se han encontrado artículos."
+
+#: includes/ced-click-n-go-class.php:204
+msgid "Add to cart"
+msgstr "Añadir al carrito"
+
+#: includes/ced-click-n-go-class.php:203
+msgid "Checkout"
+msgstr "Finalizar la compra"
+
+#: includes/ced-click-n-go-class.php:197
+msgid "Image"
+msgstr "Imagen"
+
+#: includes/ced-click-n-go-class.php:195
+msgid "Exclude products from your basket"
+msgstr "Excluir productos de tu cesta"
+
+#: includes/ced-click-n-go-class.php:165 includes/class-basket-order.php:241
+#: includes/class-basket-order.php:258 includes/class-basket-order.php:429
+#: includes/class-basket-order.php:459
+msgid "Remove from basket"
+msgstr "Eliminar de la cesta"
+
+#: includes/ced-click-n-go-class.php:164 includes/class-basket-order.php:240
+#: includes/class-basket-order.php:257 includes/class-basket-order.php:428
+#: includes/class-basket-order.php:458
+msgid "Add to basket"
+msgstr "Añadir a la cesta"
+
+#: includes/ced-click-n-go-class.php:495
+msgid "Something went wrong, items couldn't added to cart "
+msgstr "Algo ja ido mal. Los artículos no se han podido añadir al carrito "
+
+#: includes/ced-click-n-go-class.php:301
+msgid "Place same order"
+msgstr "Realizar el mismo pedido"
+
+#: includes/ced-click-n-go-class.php:205
+msgid "Close"
+msgstr "Cerrar"
+
+#: includes/ced-click-n-go-class.php:202
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: includes/ced-click-n-go-class.php:201
+msgid "Stock"
+msgstr "Existencias"
+
+#: includes/ced-click-n-go-class.php:200
+msgid "Product name"
+msgstr "Nombre del producto"
+
+#: includes/ced-click-n-go-class.php:199
+msgid "Click on this checkbox to exclude this product from reordering."
+msgstr "Haz clic en esta casilla de verificación para excluir este producto del reordenamiento."
+
+#: includes/ced-click-n-go-class.php:198
+msgid "This product is out of stock, so it would be excluded from order."
+msgstr "Este producto está agotado, por lo que quedaría excluido del pedido."
+
+#: includes/ced-click-n-go-class.php:196
+msgid "Exclude"
+msgstr "Excluir"
+
+#: includes/ced-click-n-go-class.php:194
+msgid "Exclude products from this order"
+msgstr "Excluir productos de este pedido"
+
+#: includes/ced-click-n-go-class.php:193
+msgid "All products of this order is no longer exist in our store."
+msgstr "Todos los productos de este pedido ya no existen en nuestra tienda."
+
+#: includes/ced-click-n-go-class.php:105 includes/ced-click-n-go-class.php:131
+msgid "Place Same Order"
+msgstr "Realizar el mismo pedido"
+
+#. Author of the plugin
+msgid "CedCommerce"
+msgstr "CedCommerce"
+
+#. Description of the plugin
+msgid "This extension is used to place the previous order again while order status is completed or not."
+msgstr "Esta extensión se utiliza para volver a realizar el pedido anterior mientras se completa o no el estado del pedido."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "http://cedcommerce.com"
+msgstr "http://cedcommerce.com"
+
+#. Plugin Name of the plugin
+#: includes/class-basket-order.php:124 includes/class-basket-order.php:125
+msgid "One Click Order Re-Order"
+msgstr "One Click Order Re-Order"
+
+#: includes/ced-click-n-go-class.php:490
+msgid "The items are added to cart from your previous order ."
+msgstr "Los artículos son añadidos al carrito desde tu pedido anterior."
+
+#: includes/ced-click-n-go-class.php:95 includes/ced-click-n-go-class.php:121
+#: includes/ced-click-n-go-class.php:281
+msgid "Re-Order"
+msgstr "Volver a pedirlo"
+
+#: ced-click-n-go.php:94
+msgid "WooCommerce is not activated. Please install WooCommerce first, to use the One Click Order Re-Order plugin !!!"
+msgstr "WooCommerce no está activado. ¡Por favor, instala primero WooCommerce para usar el plugin One Click Order Re-Order!"
+
+#: ced-click-n-go.php:64
+msgid "Live Demo"
+msgstr "Demostración en vivo"

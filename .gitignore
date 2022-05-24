@@ -1,0 +1,4 @@
+automatic/scripts/productSync/logs/*
+automatic/scripts/productSync_sss/logs/*
+wpcontent/backups-dump-lite/*
+*.log

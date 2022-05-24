@@ -1,0 +1,1084 @@
+# Translation of Plugins - Membership, User Registration, Login Form &amp; User Profile – ProfilePress (Formerly WP User Avatar) - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Membership, User Registration, Login Form &amp; User Profile – ProfilePress (Formerly WP User Avatar) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-08-31 10:21:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Membership, User Registration, Login Form &amp; User Profile – ProfilePress (Formerly WP User Avatar) - Stable (latest release)\n"
+
+#: src/Functions/GlobalFunctions.php:1408
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr "Lo siento, este tipo de archivo no está permitido por razones de seguridad."
+
+#: src/Admin/SettingsPages/MailOptin.php:236
+msgid "Activate Now"
+msgstr "Activar"
+
+#: src/Admin/SettingsPages/MailOptin.php:235
+msgid "Install Now"
+msgstr "Instalar"
+
+#: src/Admin/SettingsPages/AddNewForm.php:51
+msgid "Get Started"
+msgstr "Primeros pasos"
+
+#: src/Admin/SettingsPages/DragDropBuilder/Metabox.php:225
+msgid "Arial"
+msgstr "Arial"
+
+#: src/Admin/SettingsPages/DragDropBuilder/Metabox.php:234
+msgid "Verdana"
+msgstr "Verdana"
+
+#: src/Admin/SettingsPages/DragDropBuilder/Metabox.php:233
+msgid "Trebuchet MS"
+msgstr "Trebuchet MS"
+
+#: src/Admin/SettingsPages/DragDropBuilder/Metabox.php:232
+msgid "Times New Roman"
+msgstr "Times New Roman"
+
+#: src/Admin/SettingsPages/DragDropBuilder/Metabox.php:231
+msgid "Tahoma"
+msgstr "Tahoma"
+
+#: src/Admin/SettingsPages/DragDropBuilder/Metabox.php:230
+msgid "Lucida"
+msgstr "Lucida"
+
+#: src/Admin/SettingsPages/DragDropBuilder/Metabox.php:229
+msgid "Helvetica"
+msgstr "Helvetica"
+
+#: src/Admin/SettingsPages/DragDropBuilder/Metabox.php:227
+msgid "Courier New"
+msgstr "Courier New"
+
+#: src/Admin/SettingsPages/DragDropBuilder/Metabox.php:226
+msgid "Comic Sans MS"
+msgstr "Comic Sans MS"
+
+#: src/NavigationMenuLinks/Backend.php:30
+#: src/NavigationMenuLinks/Backend.php:34
+#: src/ShortcodeParser/Builder/GlobalShortcodes.php:271
+#: src/Widgets/UserPanel.php:30 src/Widgets/UserPanel.php:71
+msgid "Log Out"
+msgstr "Salir"
+
+#: src/Classes/PasswordReset.php:355
+msgid "Log in"
+msgstr "Acceder"
+
+#: src/ShortcodeParser/FrontendProfileTag.php:196
+#: src/Themes/DragDrop/UserProfile/Dixon.php:121
+msgid "Profile"
+msgstr "Perfil"
+
+#: src/NavigationMenuLinks/Backend.php:29 src/RegisterActivation/Base.php:155
+#: src/ShortcodeParser/Builder/LoginFormBuilder.php:166
+#: src/Themes/DragDrop/AbstractTheme.php:104 src/Widgets/TabbedWidget.php:88
+msgid "Log In"
+msgstr "Acceder"
+
+#: src/Functions/custom-settings-api.php:856
+msgid "Code"
+msgstr "Código"
+
+#: src/ContentProtection/ContentConditions.php:174
+msgid "OR"
+msgstr "O"
+
+#: src/Admin/SettingsPages/GeneralSettings.php:289
+#: src/Widgets/TabbedWidget.php:224
+msgid "Log out"
+msgstr "Salir"
+
+#: src/Admin/SettingsPages/GeneralSettings.php:122
+msgid "Global"
+msgstr "Global"
+
+#: src/ContentProtection/ContentConditions.php:111
+msgid "or"
+msgstr "o"
+
+#: src/Admin/SettingsPages/DragDropBuilder/DragDropBuilder.php:1480
+msgid "Appearance"
+msgstr "Apariencia"
+
+#: src/ShortcodeParser/MyAccount/edit-profile.tmpl.php:123
+msgid "Email address"
+msgstr "Dirección de correo electrónico"
+
+#: src/Themes/DragDrop/AbstractBuildScratch.php:364
+msgid "Border"
+msgstr "Borde"
+
+#: src/Admin/SettingsPages/EmailSettings/DefaultTemplateCustomizer.php:293
+#: src/Themes/DragDrop/UserProfile/DefaultTemplate.php:102
+#: src/Themes/DragDrop/UserProfile/Dixon.php:32
+#: src/Themes/DragDrop/UserProfile/Dixon.php:70
+msgid "Header Text"
+msgstr "Texto de cabecera"
+
+#: src/Admin/SettingsPages/DragDropBuilder/DragDropBuilder.php:1174
+msgid "Select Icon"
+msgstr "Seleccionar icono"
+
+#: src/ShortcodeParser/PasswordResetTag.php:107
+msgid "Save"
+msgstr "Guardar"
+
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/Username.php:22
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/UserProfile/Username.php:22
+#: src/Functions/GlobalFunctions.php:1275
+#: src/ShortcodeParser/Builder/FieldsShortcodeCallback.php:135
+#: src/Themes/DragDrop/AbstractMemberDirectoryTheme.php:463
+#: src/Themes/DragDrop/AbstractTheme.php:159
+#: src/Themes/DragDrop/AbstractTheme.php:218
+#: src/Themes/DragDrop/UserProfile/DefaultTemplate.php:105
+#: src/Widgets/TabbedWidget.php:130 src/Widgets/TabbedWidget.php:166
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: src/Admin/SettingsPages/DragDropBuilder/Metabox.php:228
+#: src/Functions/data/countries.php:97
+msgid "Georgia"
+msgstr "Georgia"
+
+#: src/Classes/AjaxHandler.php:50
+msgid "Loading..."
+msgstr "Cargando..."
+
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/Number.php:22
+msgid "Number"
+msgstr "Número"
+
+#: src/Admin/SettingsPages/FormList.php:194
+#: src/Admin/SettingsPages/FormList.php:271
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: src/Themes/DragDrop/AbstractBuildScratch.php:327
+#: src/Themes/DragDrop/AbstractBuildScratch.php:484
+msgid "Square"
+msgstr "Cuadrado"
+
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/CFPassword.php:22
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/Login/Password.php:22
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/Password.php:22
+#: src/ShortcodeParser/Builder/FieldsShortcodeCallback.php:162
+#: src/Themes/DragDrop/AbstractTheme.php:165
+#: src/Themes/DragDrop/AbstractTheme.php:205 src/Widgets/TabbedWidget.php:144
+#: src/Widgets/TabbedWidget.php:172
+msgid "Password"
+msgstr "Contraseña"
+
+#: src/Themes/DragDrop/AbstractBuildScratch.php:179
+#: src/Themes/DragDrop/AbstractTheme.php:109 src/Widgets/TabbedWidget.php:116
+msgid "Register"
+msgstr "Registro"
+
+#: src/Admin/SettingsPages/EmailSettings/DefaultTemplateCustomizer.php:250
+msgid "Content Background Color"
+msgstr "Color de fondo del contenido"
+
+#: src/ShortcodeParser/MyAccount/MyAccountTag.php:70
+msgid "Logout"
+msgstr "Salir"
+
+#: src/ContentProtection/ContentConditions.php:270
+msgid "Template"
+msgstr "Plantilla"
+
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/SelectDropdown.php:50
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/SelectRole.php:33
+msgid "Options"
+msgstr "Opciones"
+
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/UserProfile/DisplayName.php:34
+msgid "Format"
+msgstr "Formato"
+
+#: src/Themes/DragDrop/AbstractBuildScratch.php:245
+#: src/Themes/DragDrop/Login/PerfectoLite.php:28
+#: src/Themes/DragDrop/Registration/PerfectoLite.php:30
+msgid "Headline"
+msgstr "Titular"
+
+#: src/Admin/SettingsPages/DragDropBuilder/DragDropBuilder.php:1258
+#: src/Admin/SettingsPages/DragDropBuilder/DragDropBuilder.php:1285
+#: src/Admin/SettingsPages/EmailSettings/CustomizerTrait.php:11
+#: src/AdminBarDashboardAccess/include.settings-page.php:54
+#: src/AdminBarDashboardAccess/include.settings-page.php:109
+#: src/Functions/custom-settings-api.php:1078
+#: src/ShortcodeParser/Builder/FieldsShortcodeCallback.php:1036
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: src/Admin/SettingsPages/AddNewForm.php:85
+#: src/Admin/SettingsPages/ExtensionsSettingsPage.php:122
+msgid "Upgrade to Premium"
+msgstr "Mejorar a Premium"
+
+#: src/Classes/UserSignupLocationListingPage.php:59
+#: src/Themes/DragDrop/AbstractBuildScratch.php:288
+msgid "GitHub"
+msgstr "GitHub"
+
+#: src/Functions/data/countries.php:163
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: src/Admin/SettingsPages/DragDropBuilder/FieldBase.php:210
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: src/Admin/SettingsPages/DragDropBuilder/DragDropBuilder.php:1460
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/CheckboxList.php:35
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/Country.php:35
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/DefinedFieldTypes/Checkbox.php:50
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/DefinedFieldTypes/Radio.php:50
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/DefinedFieldTypes/Select.php:50
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/Login/RememberLogin.php:35
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/RadioButtons.php:35
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/SelectDropdown.php:35
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/SelectRole.php:29
+#: src/Themes/DragDrop/AbstractBuildScratch.php:50
+msgid "Label"
+msgstr "Etiqueta"
+
+#: src/Themes/DragDrop/AbstractBuildScratch.php:125
+#: src/Themes/DragDrop/AbstractMemberDirectoryTheme.php:205
+msgid "Standard"
+msgstr "Estándar"
+
+#: src/ContentProtection/views/view.access-condition.php:82
+msgid "Post Excerpt"
+msgstr "Extracto de la entrada"
+
+#: src/Admin/SettingsPages/IDUserColumn.php:20
+msgid "ID"
+msgstr "ID"
+
+#: src/Themes/DragDrop/UserProfile/Dixon.php:65
+msgid "Header Background"
+msgstr "Fondo de la cabecera"
+
+#: src/Admin/SettingsPages/DragDropBuilder/FieldBase.php:88
+msgid "Style"
+msgstr "Estilo"
+
+#: src/Admin/SettingsPages/Forms.php:219
+#: src/Admin/SettingsPages/MemberDirectories.php:114
+msgid "Live Preview"
+msgstr "Vista previa en vivo"
+
+#: src/Admin/SettingsPages/Forms.php:114
+#: src/Admin/SettingsPages/GeneralSettings.php:189
+#: src/Admin/SettingsPages/GeneralSettings.php:305
+#: src/Classes/AjaxHandler.php:54 src/NavigationMenuLinks/Backend.php:34
+#: src/ShortcodeParser/Builder/GlobalShortcodes.php:237
+#: src/Themes/DragDrop/AbstractBuildScratch.php:180
+#: src/Widgets/TabbedWidget.php:113
+msgid "Login"
+msgstr "Acceder"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:106
+msgid "Learn more"
+msgstr "Más información"
+
+#: src/Admin/SettingsPages/GeneralSettings.php:207
+#: src/RegisterActivation/Base.php:167
+msgid "My Account"
+msgstr "Mi cuenta"
+
+#: src/Admin/SettingsPages/DragDropBuilder/FieldBase.php:235
+#: src/Admin/SettingsPages/FormList.php:239
+#: src/Admin/SettingsPages/FormList.php:315
+#: src/Admin/SettingsPages/GeneralSettings.php:169
+#: src/ContentProtection/views/include.view-sidebar.php:12
+#: src/ContentProtection/WPListTable.php:96
+#: src/ContentProtection/WPListTable.php:305
+msgid "Delete"
+msgstr "Borrar"
+
+#: src/Admin/SettingsPages/EmailSettings/EmailSettingsPage.php:164
+msgid "Content Type"
+msgstr "Tipo de contenido"
+
+#: src/Classes/UserSignupLocationListingPage.php:51
+#: src/Themes/DragDrop/AbstractBuildScratch.php:286
+msgid "Google"
+msgstr "Google"
+
+#: src/Admin/SettingsPages/DragDropBuilder/Metabox.php:224
+msgid "Standard Fonts"
+msgstr "Fuentes estándar"
+
+#: src/Admin/SettingsPages/ExtensionsSettingsPage.php:106
+msgid "Upgrade Now"
+msgstr "Mejora ahora"
+
+#: src/Admin/SettingsPages/DragDropBuilder/Metabox.php:99
+msgid "Upload Image"
+msgstr "Subir imagen"
+
+#: src/Themes/DragDrop/AbstractBuildScratch.php:466
+msgid "Submit"
+msgstr "Enviar"
+
+#: src/Admin/SettingsPages/DragDropBuilder/DragDropBuilder.php:1515
+#: src/Themes/DragDrop/AbstractBuildScratch.php:533
+#: src/Themes/DragDrop/Login/PerfectoLite.php:51
+#: src/Themes/DragDrop/Registration/PerfectoLite.php:53
+msgid "Text"
+msgstr "Texto"
+
+#: src/Themes/DragDrop/AbstractBuildScratch.php:231
+#: src/Themes/DragDrop/AbstractBuildScratch.php:374
+#: src/Themes/DragDrop/AbstractBuildScratch.php:521
+#: src/Themes/DragDrop/Login/PerfectoLite.php:41
+#: src/Themes/DragDrop/Registration/PerfectoLite.php:43
+#: src/Themes/DragDrop/UserProfile/Dixon.php:60
+msgid "Background"
+msgstr "Fondo"
+
+#: src/Admin/SettingsPages/ExtensionsSettingsPage.php:137
+msgid "Learn More"
+msgstr "Más Información"
+
+#: src/Themes/DragDrop/AbstractBuildScratch.php:515
+msgid "Font Weight"
+msgstr "Peso de la fuente"
+
+#: src/Classes/ExtensionManager.php:124
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: src/ContentProtection/WPListTable.php:89
+msgid "Deactivate"
+msgstr "Desactivar"
+
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/Email.php:22
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/UserProfile/Email.php:22
+#: src/Functions/GlobalFunctions.php:1280
+#: src/ShortcodeParser/Builder/FieldsShortcodeCallback.php:210
+#: src/Themes/DragDrop/AbstractMemberDirectoryTheme.php:206
+#: src/Themes/DragDrop/AbstractTheme.php:162
+#: src/Themes/DragDrop/AbstractTheme.php:221 src/Widgets/TabbedWidget.php:137
+msgid "Email Address"
+msgstr "Dirección de correo electrónico"
+
+#: src/Admin/SettingsPages/DragDropBuilder/Metabox.php:236
+msgid "Google Fonts"
+msgstr "Google Fonts"
+
+#: src/Admin/SettingsPages/FormList.php:196
+msgid "Date"
+msgstr "Fecha"
+
+#: src/Admin/SettingsPages/DragDropBuilder/DragDropBuilder.php:1487
+msgid "Colors"
+msgstr "Colores"
+
+#: src/Themes/DragDrop/UserProfile/DefaultTemplate.php:235
+msgid "Posts"
+msgstr "Entradas"
+
+#: src/Themes/DragDrop/AbstractBuildScratch.php:238
+msgid "Font Family"
+msgstr "Familia de fuentes"
+
+#: src/Classes/UserSignupLocationListingPage.php:55
+#: src/Themes/DragDrop/AbstractBuildScratch.php:287
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: src/Themes/DragDrop/UserProfile/DefaultTemplate.php:104
+msgid "Hide"
+msgstr "Ocultar"
+
+#: src/Admin/SettingsPages/EmailSettings/DefaultTemplateCustomizer.php:302
+msgid "Footer Text"
+msgstr "Texto de pie de página"
+
+#: src/Themes/DragDrop/Login/PerfectoLite.php:66
+#: src/Themes/DragDrop/Registration/PerfectoLite.php:68
+msgid "Button Text"
+msgstr "Texto del botón"
+
+#: src/Themes/DragDrop/AbstractBuildScratch.php:401
+#: src/Themes/DragDrop/AbstractBuildScratch.php:512
+msgid "Normal"
+msgstr "Normal"
+
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/HTML.php:35
+msgid "Content"
+msgstr "Contenido"
+
+#: src/Themes/DragDrop/AbstractBuildScratch.php:69
+#: src/Themes/DragDrop/AbstractBuildScratch.php:409
+msgid "Description"
+msgstr "Descripción"
+
+#: src/Admin/SettingsPages/EmailSettings/EmailSettingsPage.php:247
+#: src/Admin/SettingsPages/GeneralSettings.php:370
+msgid "Enable"
+msgstr "Activar"
+
+#: src/Themes/DragDrop/UserProfile/Dixon.php:105
+msgid "Social Links"
+msgstr "Enlaces sociales"
+
+#: src/Admin/SettingsPages/DragDropBuilder/FieldBase.php:87
+#: src/Admin/SettingsPages/GeneralSettings.php:19
+#: src/Admin/SettingsPages/GeneralSettings.php:56
+#: src/Admin/SettingsPages/GeneralSettings.php:81
+#: src/ShortcodeParser/MyAccount/edit-profile.tmpl.php:28
+msgid "General"
+msgstr "General"
+
+#: src/Admin/SettingsPages/GeneralSettings.php:162
+msgid "Disable"
+msgstr "Desactivar"
+
+#: src/Admin/SettingsPages/EmailSettings/DefaultTemplateCustomizer.php:272
+msgid "Logo"
+msgstr "Logotipo"
+
+#: src/Admin/SettingsPages/EmailSettings/DefaultTemplateCustomizer.php:229
+msgid "Background Color"
+msgstr "Color de fondo"
+
+#: src/Themes/DragDrop/UserProfile/DefaultTemplate.php:239
+msgid "Comments"
+msgstr "Comentarios"
+
+#: src/Themes/DragDrop/AbstractBuildScratch.php:333
+#: src/Themes/DragDrop/AbstractBuildScratch.php:488
+msgid "Layout"
+msgstr "Disposición"
+
+#: src/Admin/SettingsPages/EmailSettings/DefaultTemplateCustomizer.php:154
+msgid "Header"
+msgstr "Cabecera"
+
+#: src/Themes/DragDrop/AbstractBuildScratch.php:447
+msgid "Name"
+msgstr "Nombre"
+
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/UserProfile/Website.php:22
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/Website.php:22
+#: src/ShortcodeParser/Builder/FieldsShortcodeCallback.php:253
+#: src/ShortcodeParser/Builder/FieldsShortcodeCallback.php:267
+#: src/ShortcodeParser/MyAccount/edit-profile.tmpl.php:148
+#: src/Themes/DragDrop/AbstractMemberDirectoryTheme.php:207
+#: src/Themes/DragDrop/AbstractTheme.php:174
+#: src/Themes/DragDrop/AbstractTheme.php:230
+#: src/Themes/DragDrop/MemberDirectoryListing.php:113
+msgid "Website"
+msgstr "Web"
+
+#: src/Admin/SettingsPages/EmailSettings/DefaultTemplateCustomizer.php:282
+#: src/ContentProtection/ContentConditions.php:276
+msgid "Default"
+msgstr "Por defecto"
+
+#: src/Admin/SettingsPages/EmailSettings/WPListTable.php:29
+#: src/Widgets/TabbedWidget.php:169
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: src/Classes/UserSignupLocationListingPage.php:43
+#: src/Themes/DragDrop/AbstractBuildScratch.php:284
+msgid "Facebook"
+msgstr "Facebook"
+
+#: src/Classes/UserSignupLocationListingPage.php:47
+#: src/Themes/DragDrop/AbstractBuildScratch.php:285
+msgid "Twitter"
+msgstr "Twitter"
+
+#: src/Admin/SettingsPages/GeneralSettings.php:213
+#: src/ContentProtection/WPListTable.php:93
+#: src/Functions/custom-settings-api.php:1008
+msgid "Activate"
+msgstr "Activar"
+
+#: src/Functions/data/countries.php:260
+msgid "Samoa"
+msgstr "Samoa"
+
+#: src/Functions/data/countries.php:189
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#: src/Functions/data/countries.php:176
+msgid "Niue"
+msgstr "Niue"
+
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/UserProfile/Bio.php:30
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/UserProfile/CustomField.php:40
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/UserProfile/DisplayName.php:30
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/UserProfile/Email.php:30
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/UserProfile/FirstName.php:30
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/UserProfile/LastName.php:30
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/UserProfile/Nickname.php:30
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/UserProfile/Username.php:30
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/UserProfile/Website.php:30
+#: src/Admin/SettingsPages/FormList.php:193
+#: src/ContentProtection/WPListTable.php:28
+#: src/Themes/DragDrop/AbstractBuildScratch.php:390
+msgid "Title"
+msgstr "Título"
+
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/Bio.php:38
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/CFPassword.php:48
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/CheckboxList.php:53
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/Country.php:47
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/CoverImage.php:31
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/Date.php:71
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/DefinedFieldTypes/Agreeable.php:61
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/DefinedFieldTypes/Checkbox.php:65
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/DefinedFieldTypes/Date.php:57
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/DefinedFieldTypes/Input.php:58
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/DefinedFieldTypes/Password.php:58
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/DefinedFieldTypes/Radio.php:57
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/DefinedFieldTypes/Select.php:58
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/DisplayName.php:38
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/FirstName.php:38
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/LastName.php:38
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/Nickname.php:38
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/Number.php:63
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/ProfilePicture.php:31
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/RadioButtons.php:53
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/SelectDropdown.php:58
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/SelectRole.php:41
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/SingleCheckbox.php:47
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/Textarea.php:48
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/TextBox.php:48
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/Website.php:38
+msgid "Required"
+msgstr "Necesario"
+
+#: src/Functions/data/countries.php:168
+msgid "Nauru"
+msgstr "Nauru"
+
+#: src/Functions/data/countries.php:105
+msgid "Guam"
+msgstr "Guam"
+
+#: src/Functions/data/countries.php:89
+msgid "Fiji"
+msgstr "Fiyi"
+
+#: src/Functions/data/countries.php:194
+msgid "Reunion"
+msgstr "Reunión"
+
+#: src/Functions/data/countries.php:156
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: src/Functions/data/countries.php:155
+msgid "Mauritius"
+msgstr "Mauricio"
+
+#: src/Functions/data/countries.php:149
+msgid "Maldives"
+msgstr "Maldivas"
+
+#: src/Functions/data/countries.php:255
+msgid "Vatican"
+msgstr "Vaticano"
+
+#: src/Functions/data/countries.php:206
+msgid "San Marino"
+msgstr "San Marino"
+
+#: src/Functions/data/countries.php:160
+msgid "Monaco"
+msgstr "Mónaco"
+
+#: src/Functions/data/countries.php:151
+msgid "Malta"
+msgstr "Malta"
+
+#: src/Functions/data/countries.php:143
+msgid "Luxembourg"
+msgstr "Luxemburgo"
+
+#: src/Functions/data/countries.php:128
+msgid "Jersey"
+msgstr "Jersey"
+
+#: src/Functions/data/countries.php:122
+msgid "Isle of Man"
+msgstr "Isla de Man"
+
+#: src/Functions/data/countries.php:107
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: src/Functions/data/countries.php:100
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: src/Functions/data/countries.php:19
+msgid "Andorra"
+msgstr "Andorra"
+
+#: src/Functions/data/countries.php:27
+msgid "Australia"
+msgstr "Australia"
+
+#: src/Functions/data/countries.php:56
+msgid "Cape Verde"
+msgstr "Cabo Verde"
+
+#: src/Functions/data/countries.php:39
+msgid "Bermuda"
+msgstr "Bermudas"
+
+#: src/Functions/data/countries.php:213
+msgid "Singapore"
+msgstr "Singapur"
+
+#: src/Functions/data/countries.php:193
+msgid "Qatar"
+msgstr "Catar"
+
+#: src/Functions/data/countries.php:133
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: src/Functions/data/countries.php:114
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: src/Functions/data/countries.php:49
+msgid "Brunei"
+msgstr "Brunei"
+
+#: src/Functions/data/countries.php:31
+msgid "Bahrain"
+msgstr "Baréin"
+
+#: src/Functions/data/countries.php:22
+msgid "Antarctica"
+msgstr "Antártida"
+
+#: src/Functions/data/countries.php:192
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: src/Functions/data/countries.php:184
+msgid "Panama"
+msgstr "Panamá"
+
+#: src/Functions/data/countries.php:153
+msgid "Martinique"
+msgstr "Martinica"
+
+#: src/Functions/data/countries.php:126
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: src/Functions/data/countries.php:110
+msgid "Guyana"
+msgstr "Guyana"
+
+#: src/Functions/data/countries.php:106
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: src/Functions/data/countries.php:104
+msgid "Guadeloupe"
+msgstr "Guadalupe"
+
+#: src/Functions/data/countries.php:103
+msgid "Grenada"
+msgstr "Grenada"
+
+#: src/Functions/data/countries.php:81
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: src/Functions/data/countries.php:77
+msgid "Dominica"
+msgstr "Dominica"
+
+#: src/Functions/data/countries.php:69
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: src/Functions/data/countries.php:37
+msgid "Belize"
+msgstr "Belice"
+
+#: src/Functions/data/countries.php:33
+msgid "Barbados"
+msgstr "Barbados"
+
+#: src/Functions/data/countries.php:26
+msgid "Aruba"
+msgstr "Aruba"
+
+#: src/Functions/data/countries.php:24
+msgid "Argentina"
+msgstr "Argentina"
+
+#: src/Functions/data/countries.php:21
+msgid "Anguilla"
+msgstr "Anguila"
+
+#: src/Functions/data/countries.php:76
+msgid "Djibouti"
+msgstr "Yibuti"
+
+#: deprecated/wp-user-avatar/includes/wpua-functions.php:65
+#: deprecated/wp-user-avatar/includes/wpua-functions.php:73
+#: deprecated/wp-user-avatar/includes/wpua-functions.php:78
+#: deprecated/wp-user-avatar/includes/wpua-functions.php:131
+#: src/Classes/ImageUploader.php:49
+#: src/ShortcodeParser/MyAccount/MyAccountTag.php:528
+msgid "Profile Picture"
+msgstr "Imagen del perfil"
+
+#: src/Functions/PPressBFnote.php:85
+msgid "Dismiss this notice"
+msgstr "Descartar este aviso"
+
+#: src/Themes/DragDrop/AbstractMemberDirectoryTheme.php:244
+#: src/Themes/DragDrop/AbstractMemberDirectoryTheme.php:825
+msgid "Search"
+msgstr "Buscar"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:172
+msgid "URL"
+msgstr "URL"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:167
+#: src/ContentProtection/views/view.access-condition.php:125
+msgid "Custom URL"
+msgstr "URL personalizada"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:157
+#: src/Themes/DragDrop/AbstractBuildScratch.php:356
+#: src/Themes/DragDrop/AbstractBuildScratch.php:415
+msgid "Left"
+msgstr "Izquierda"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:158
+#: src/Themes/DragDrop/AbstractBuildScratch.php:357
+#: src/Themes/DragDrop/AbstractBuildScratch.php:417
+msgid "Right"
+msgstr "Derecha"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:153
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:154
+msgid "wp_user_avatar_align"
+msgstr "wp_user_avatar_align"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:153
+msgid "Alignment"
+msgstr "Alineación"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:163
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:164
+msgid "wp_user_avatar_link"
+msgstr "wp_user_avatar_link"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:163
+msgid "Link To"
+msgstr "Enlace a"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:171
+msgid "wp_user_avatar_link_external_section"
+msgstr "wp_user_avatar_link_external_section"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:172
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:173
+msgid "wp_user_avatar_link_external"
+msgstr "wp_user_avatar_link_external"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:177
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:178
+msgid "wp_user_avatar_target"
+msgstr "wp_user_avatar_target"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:178
+msgid "Open link in a new window"
+msgstr "Abrir enlace en ventana nueva"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:182
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:183
+msgid "wp_user_avatar_caption"
+msgstr "wp_user_avatar_caption"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:191
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:192
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:193
+msgid "wp_user_avatar_upload"
+msgstr "wp_user_avatar_upload"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:166
+msgid "Image File"
+msgstr "Archivo de imagen"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:182
+msgid "Caption"
+msgstr "Leyenda"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:187
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:197
+msgid "Insert into Post"
+msgstr "Insertar en la entrada"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:156
+#: src/Themes/DragDrop/AbstractBuildScratch.php:416
+msgid "Center"
+msgstr "Center"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:102
+msgid "Disable Gravatar and use only local avatars"
+msgstr "Desactivar Gravatar y utilizar sólo los avatares locales"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:85
+msgid "Crop avatars to exact dimensions"
+msgstr "Recortar los avatares a sus dimensiones exactas"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:199
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:142
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:141
+#: src/Themes/DragDrop/AbstractBuildScratch.php:341
+msgid "Medium"
+msgstr "Medio"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:140
+#: src/Themes/DragDrop/AbstractBuildScratch.php:342
+msgid "Large"
+msgstr "Grande"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:136
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:148
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/EditProfile/ShowProfilePicture.php:30
+msgid "Size"
+msgstr "Tamaño"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:73
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:185
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:192
+msgid "Upload"
+msgstr "Subir"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:243
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:79
+#: src/Admin/SettingsPages/EmailSettings/DefaultTemplateCustomizer.php:283
+#: src/ShortcodeParser/MyAccount/edit-profile.tmpl.php:98
+#: src/ShortcodeParser/MyAccount/edit-profile.tmpl.php:117
+msgid "Remove"
+msgstr "Eliminar"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:81
+msgid "Height"
+msgstr "Altura"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:79
+#: src/Themes/DragDrop/AbstractBuildScratch.php:83
+#: src/Themes/DragDrop/AbstractBuildScratch.php:224
+#: src/Themes/DragDrop/AbstractBuildScratch.php:499
+msgid "Width"
+msgstr "Ancho"
+
+#: src/Admin/SettingsPages/FormList.php:238
+#: src/ContentProtection/WPListTable.php:84
+msgid "Edit"
+msgstr "Editar"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-widget.php:60
+msgid "Description:"
+msgstr "Descripción:"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:243
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:205
+msgid "Undo"
+msgstr "Deshacer"
+
+#: src/ContentProtection/ContentConditions.php:232
+#: src/ContentProtection/ContentConditions.php:245
+#: src/ContentProtection/ContentConditions.php:257
+#: src/ContentProtection/ContentConditions.php:331
+#: src/ContentProtection/ContentConditions.php:367
+msgid "Select %s"
+msgstr "Selecciona %s"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:195
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:139
+msgid "Original Size"
+msgstr "Tamaño original"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:189
+msgid "Allowed Files"
+msgstr "Archivos permitidos"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:126
+msgid "User Name"
+msgstr "Nombre de usuario"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-shortcode.php:177
+msgid "Profile updated."
+msgstr "Perfil actualizado."
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-widget.php:13
+msgid "Insert"
+msgstr "Insertar"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-widget.php:13
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:193
+msgid "[avatar_upload]"
+msgstr "[avatar_upload]"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:188
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:38
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:70
+msgid "Maximum upload file size: %d%s."
+msgstr "Tamaño máximo de subida: %d%s."
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:189
+msgid "<code>jpg jpeg png gif</code>"
+msgstr "<code>jpg jpeg png gif</code>"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:252
+msgid "This file is not an image. Please try another."
+msgstr "Este archivo no es una imagen. Por favor prueba con otro."
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:256
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:283
+msgid "Memory exceeded. Please try another smaller file."
+msgstr "Memoria superada. Por favor prueba con un archivo más pequeño"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:126
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:127
+msgid "wp_user_avatar_user"
+msgstr "wp_user_avatar_user"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:136
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:137
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:149
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:183
+msgid "wp_user_avatar_size"
+msgstr "wp_user_avatar_size"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:147
+msgid "wp_user_avatar_size_number_section"
+msgstr "wp_user_avatar_size_number_section"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:148
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:149
+msgid "wp_user_avatar_size_number"
+msgstr "wp_user_avatar_size_number"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:36
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:68
+msgid "%s exceeds the maximum upload size for this site."
+msgstr "%s excede el limite de tamaño máximo para el archivo"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:260
+msgid "Unable to create directory %s. Is its parent directory writable by the server?"
+msgstr "No fue posible crear el directorio %s. ¿Es el directorio superior editable por el servidor?"
+
+#: deprecated/wp-user-avatar/includes/wpua-functions.php:75
+#: deprecated/wp-user-avatar/includes/wpua-functions.php:81
+msgid "Image"
+msgstr "Imagen"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-shortcode.php:202
+#: src/Themes/DragDrop/AbstractTheme.php:113
+msgid "Update Profile"
+msgstr "Actualizar el perfil"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:203
+msgid "Gravatar Logo"
+msgstr "Logo Gravatar"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:201
+msgid "Mystery Man"
+msgstr "Hombre misterioso"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:202
+msgid "Blank"
+msgstr "En blanco"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:204
+msgid "Identicon (Generated)"
+msgstr "Identicon (generado)"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:205
+msgid "Wavatar (Generated)"
+msgstr "Wavatar (generado)"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:206
+msgid "MonsterID (Generated)"
+msgstr "MonsterID (generado)"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:207
+msgid "Retro (Generated)"
+msgstr "Retro (generado)"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:242
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:179
+msgid "Choose Image"
+msgstr "Elegir imagen"
+
+#: src/Admin/SettingsPages/DragDropBuilder/FieldBase.php:89
+#: src/Admin/SettingsPages/DragDropBuilder/FieldBase.php:232
+#: src/Admin/SettingsPages/GeneralSettings.php:38
+#: src/Admin/SettingsPages/GeneralSettings.php:39
+#: src/Classes/Miscellaneous.php:17
+msgid "Settings"
+msgstr "Ajustes"
+
+#. Plugin Name of the plugin
+msgid "ProfilePress"
+msgstr "ProfilePress"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-widget.php:65
+msgid "Automatically add paragraphs"
+msgstr "Añadir párrafos automáticamente"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-widget.php:56
+#: src/Widgets/Form.php:65 src/Widgets/TabbedWidget.php:473
+#: src/Widgets/UserPanel.php:74
+msgid "Title:"
+msgstr "Título:"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:124
+msgid "For users without a custom avatar of their own, you can either display a generic logo or a generated one based on their e-mail address."
+msgstr "Para usuarios sin un avatar personalizado, puedes mostrar un logo genérico o uno generado en base a su dirección de correo electrónico."
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:75
+msgid "Resize avatars on upload"
+msgstr "Escalar los avatares al subirlos"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://profilepress.net"
+msgstr "https://profilepress.net"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:202
+msgid "Remove Image"
+msgstr "Quitar imagen"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:143
+msgid "Custom"
+msgstr "Personalizado"

@@ -1,0 +1,183 @@
+# Translation of Plugins - Product Prices by User Roles for WooCommerce - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Product Prices by User Roles for WooCommerce - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-12-24 11:53:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Product Prices by User Roles for WooCommerce - Development (trunk)\n"
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-general.php:61
+msgid "Disable \"Product Prices by User Roles\" for bots"
+msgstr "Desactivar «Product Prices by User Roles» para los robots"
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-general.php:54
+msgid "Product Prices by User Roles for WooCommerce."
+msgstr "Precios de productos por perfiles de usuario para WooCommerce."
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-per-product.php:152
+msgid "Product Prices by User Roles: Per Product Settings"
+msgstr "Precios de productos por perfiles de usuario: Ajustes por producto"
+
+#: includes/settings/class-alg-wc-settings-price-by-user-role.php:33
+#: includes/settings/class-alg-wc-price-by-user-role-settings-general.php:52
+msgid "Product Prices by User Roles"
+msgstr "Precios de productos por perfiles de usuario"
+
+#. Plugin URI of the plugin
+msgid "https://woocommerce.com/products/product-prices-by-user-roles-for-woocommerce/"
+msgstr "https://woocommerce.com/products/product-prices-by-user-roles-for-woocommerce/"
+
+#. Plugin Name of the plugin
+msgid "Product Prices by User Roles for WooCommerce"
+msgstr "Product Prices by User Roles for WooCommerce"
+
+#. Author URI of the plugin
+msgid "https://www.tychesoftwares.com/"
+msgstr "https://www.tychesoftwares.com/"
+
+#. Author of the plugin
+msgid "Tyche Softwares"
+msgstr "Tyche Softwares"
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-per-product.php:340
+#: includes/settings/class-alg-wc-price-by-user-role-settings-multipliers.php:94
+msgid "Make \"empty price\""
+msgstr "Hacer \"precio vacío\""
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-per-product.php:367
+#: includes/settings/class-alg-wc-price-by-user-role-settings-multipliers.php:55
+msgid "Enable section"
+msgstr "Activar sección"
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-general.php:53
+msgid "Enable plugin"
+msgstr "Activar plugin"
+
+#. Description of the plugin
+msgid "Display WooCommerce products prices by user roles."
+msgstr "Mostrar los precios de los productos de WooCommerce por perfiles de usuario."
+
+#: price-by-user-role-for-woocommerce.php:129
+msgid "Unlock All"
+msgstr "Desbloquear todo"
+
+#: price-by-user-role-for-woocommerce.php:127
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/alg-wc-price-by-user-role-functions.php:111
+msgid "Guest"
+msgstr "Invitado"
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-section.php:66
+msgid "Reset"
+msgstr "Restablecer"
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-section.php:60
+msgid "Reset Settings"
+msgstr "Restablecer ajustes"
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-section.php:65
+msgid "Reset section settings"
+msgstr "Restablecer los ajustes de la sección"
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-per-product.php:375
+msgid "If per product settings is enabled, you can choose which roles to show on product's edit page. Leave blank to show all roles."
+msgstr "Si los ajustes por producto están activados, puedes elegir qué perfiles mostrar en la página de edición del producto. Déjalo en blanco para mostrar todos los roles."
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-per-product.php:374
+msgid "Show roles on per product settings"
+msgstr "Mostrar los roles en los ajustes por producto"
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-per-product.php:368
+msgid "When enabled, this will add new \"Product Prices by User Roles: Per Product Settings\" meta box to each product's edit page."
+msgstr "Cuando está activado, añadirá una nueva caja meta «Precios de productos por perfiles de usuario: Ajustes por producto» en la página de edición de cada producto."
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-per-product.php:366
+msgid "Enable per product settings"
+msgstr "Activar los ajustes de producto"
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-per-product.php:361
+msgid "Per Product Options"
+msgstr "Opciones por producto"
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-per-product.php:327
+msgid "Sale price"
+msgstr "Precio rebajado"
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-per-product.php:318
+msgid "Regular price"
+msgstr "Precio normal"
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-per-product.php:295
+msgid "Enabled"
+msgstr "Activado"
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-per-product.php:293
+#: includes/settings/class-alg-wc-price-by-user-role-settings-per-product.php:338
+msgid "No"
+msgstr "No"
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-per-product.php:292
+#: includes/settings/class-alg-wc-price-by-user-role-settings-per-product.php:337
+msgid "Yes"
+msgstr "Sí"
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-per-product.php:288
+msgid "Press Update after changing this value."
+msgstr "Haz clic en Actualizar después de cambiar este valor."
+
+#. translators: %s: Link to pro version
+#: includes/settings/class-alg-wc-price-by-user-role-settings-per-product.php:109
+msgid "Free plugins version is limited to only one \"price by user role per products settings\" product enabled at a time. You will need to get <strong><a href=\"%s\" target=\"_blank\">Product Prices by User Roles for WooCommerce Pro</a></strong> to add unlimited number of \"price by user role per product settings\" products."
+msgstr "La versión gratuita del plugin está limitada a un único producto por «precio por perfil de usuario por ajustes del producto» al mismo tiempo. Tendrás que obtener <strong><a href=\"%s\" target=\"_blank\">Product Prices by User Roles for WooCommerce Pro</a></strong> para añadir un número ilimitado de productos de «precio por perfil de usuario por ajustes del producto»."
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-per-product.php:34
+msgid "Per Product"
+msgstr "Por producto"
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-multipliers.php:64
+msgid "When enabled, this will apply user role multipliers to shipping calculations."
+msgstr "Cuando se activa, esto aplica los multiplicadores de perfil de usuario a los cálculos de envío."
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-multipliers.php:62
+msgid "Shipping"
+msgstr "Envío"
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-multipliers.php:56
+msgid "When enabled, this will multiply all products prices by multipliers set below."
+msgstr "Cuando se activa, esto multiplicará los precios de todos los productos por los multiplicadores establecidos a continuación."
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-multipliers.php:54
+msgid "Enable multipliers"
+msgstr "Activar los multiplicadores"
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-multipliers.php:49
+msgid "Roles & Multipliers Options"
+msgstr "Opciones de perfiles y multiplicadores"
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-multipliers.php:34
+#: includes/settings/class-alg-wc-price-by-user-role-settings-multipliers.php:74
+msgid "Multipliers"
+msgstr "Multiplicadores"
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-general.php:60
+msgid "Search engine bots"
+msgstr "Bots de los motores de búsqueda"
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-multipliers.php:63
+msgid "Enable"
+msgstr "Activar"
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-general.php:47
+msgid "Price by User Role Options"
+msgstr "Opciones de precio según perfil de usuario"
+
+#: includes/settings/class-alg-wc-price-by-user-role-settings-general.php:34
+msgid "General"
+msgstr "General"
